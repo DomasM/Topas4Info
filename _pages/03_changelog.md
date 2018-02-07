@@ -19,6 +19,15 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+
+## 1.15.1 (2018-02-07) (beta)
+
+
+### Changed behaviours
+1. In motor configuration use new property ForceNoDUSB in place of old DUSB with default value false 
+
+
+
 ## 1.15.0 (2018-02-07) (beta)
 
 
