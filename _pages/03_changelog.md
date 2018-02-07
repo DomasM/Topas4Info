@@ -19,6 +19,15 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.15.0 (2018-02-07) (beta)
+
+
+### New Features
+1. Motor property 'Reverse Direction' is accessible via REST API, can be imported from zipped configuration
+
+### Fixes
+1. (C)(FO) When creating new interaction start/end wavelengths might be calculated incorrectly in some cases
+
 
 ## 1.14.0 (2018-02-05) (beta)
 
