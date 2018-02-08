@@ -60,7 +60,7 @@ Press any key to continue . . .
 ```json
 {
   "Type": "PharosUserAppV2_9_Comp",
-  "Address": "192.168.8.11"
+  "Address": "192.168.8.191"
 }
 ```
 7. Save changes to the file, click 'Start' in Topas4ServerApplication.
