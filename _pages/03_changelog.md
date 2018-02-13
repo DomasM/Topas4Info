@@ -19,6 +19,12 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.15.2 (2018-02-13) (beta)
+
+
+### Fixes
+1. (FO) Server application might crash when deleting interaction which is parent for another one
+
 
 ## 1.15.1 (2018-02-07) (beta)
 
