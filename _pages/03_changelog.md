@@ -19,6 +19,13 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.15.3 (2018-02-15) (beta)
+
+
+### Fixes
+1. (FO) Motor configuration sanity checker is silent about some mistakes in configuration (motor address, zero offset, etc)
+
+
 ## 1.15.2 (2018-02-13) (beta)
 
 
