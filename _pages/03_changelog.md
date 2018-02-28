@@ -19,7 +19,7 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
-## 1.15.4 (2018-02-26) (beta)
+## 1.15.4 (2018-02-26) (beta),  (2018-02-28) (public)
 
 ### Changed behaviours
 1. (C) Both optical and separation devices can be renamed
