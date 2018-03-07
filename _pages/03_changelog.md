@@ -19,6 +19,21 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+
+## 1.16.0 (2018-03-07) (beta)
+
+### Fixes
+1. (FO) Demo device can control real Pharos laser without authentication
+
+### New Features
+1. Neutral positons have interaction filter, like motors and messages in separation logic
+
+### Changed behaviours
+1. Demo devices have the same motors configuration, global property 'IsDemo' in General.json is used instead
+1. (C) Messages window can't be minimized
+
+
+
 ## 1.15.4 (2018-02-26) (beta),  (2018-02-28) (public)
 
 ### Changed behaviours
