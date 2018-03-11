@@ -20,7 +20,7 @@ permalink: /changelog/
 
 
 
-## 1.16.0 (2018-03-07) (beta)
+## 1.16.0 (2018-03-07) (beta), (2018-03-11) (public)
 
 ### Fixes
 1. (FO) Demo device can control real Pharos laser without authentication
