@@ -19,6 +19,16 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+# 1.17.0 (2018-03-30) (beta)
+
+### Fixes
+1. (FN)(S) Do not try to get diagnostics information for motor connected to Topas3 extension board
+
+### New Features
+1. Long motor titles
+1. Descriptions for interactions (shown as tooltip in interaction selection control)
+
+
 
 ## 1.16.0 (2018-03-07) (beta), (2018-03-11) (public)
 
