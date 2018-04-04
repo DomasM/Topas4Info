@@ -19,6 +19,15 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+
+# 1.17.1 (2018-04-04) (beta)
+
+### Fixes
+1. (FO)(C) Default (aka neutral) positions with invalid named position are not reported by optical configuration sanity checker
+1. (FO) Reverse direction property is not correctly initialized on startup
+1. (FN) Remove 'possible nonsense' trace after motor reset
+
+
 # 1.17.0 (2018-03-30) (beta)
 
 ### Fixes
