@@ -20,7 +20,7 @@ permalink: /changelog/
 
 
 
-# 1.17.1 (2018-04-04) (beta)
+# 1.17.1 (2018-04-04) (beta), (2018-04-10) (public)
 
 ### Fixes
 1. (FO)(C) Default (aka neutral) positions with invalid named position are not reported by optical configuration sanity checker
