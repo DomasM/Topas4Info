@@ -19,6 +19,15 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.18.0 (2018-04-25) (beta)
+
+
+### New Features
+1. (C) Each device has its own color
+
+### Changed behaviours
+1. (C) When launching device from zipped configuration AccessControl.OverrideAllowAll is set to false for non-Demo devices
+
 
 ## 1.17.1 (2018-04-04) (beta), (2018-04-10) (public)
 
