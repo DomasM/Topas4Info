@@ -18,12 +18,18 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.18.1 (2018-04-26) (beta)
+
+
+### Changed behaviours
+1. (C) Bring back application wide accent color selection, keep device specific color too
+
 
 ## 1.18.0 (2018-04-25) (beta)
 
 
-### New Features
-1. (C) Each device has its own color
+### New Features 
+1. (C) Each device has its own color (instead of application wide color selection)
 
 ### Changed behaviours
 1. (C) When launching device from zipped configuration AccessControl.OverrideAllowAll is set to false for non-Demo devices
