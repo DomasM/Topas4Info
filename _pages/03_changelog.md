@@ -18,7 +18,20 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
-## 1.18.1 (2018-04-26) (beta)
+
+## 1.19.0 (2018-05-31) (beta)
+
+
+### New Features 
+1. Each device can have a nickname for easier identification
+
+### Changed behaviours
+1. (S) Six letter serial numbers can be used for Topas3 boards
+1. (C) Motor properties pop-up is closed after pressing 'Apply' button
+1. (C) 'Done' check mark near separation messages is on the left side of the message
+
+
+## 1.18.1 (2018-04-26) (beta), (2018-05-31) (public)
 
 
 ### Changed behaviours
