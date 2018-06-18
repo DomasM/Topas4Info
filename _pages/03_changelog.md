@@ -19,6 +19,18 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+
+## 1.20.0 (2018-06-18) 
+
+
+
+### Changed behaviours
+1. (C) 'Tools > Launch device from zipped configuration' asks whether user wants to launch device as demo or as real one, if configuration is demo
+
+### New Features 
+1. (C) Mobile app promo
+
+
 ## 1.19.0 (2018-05-31) (beta)
 
 
