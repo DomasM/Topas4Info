@@ -20,9 +20,34 @@ permalink: /changelog/
 
 
 
+
+## 1.20.2 (2018-07-18) (beta)
+
+### Fixes
+
+1. Assembly binding redirects
+
+
+
+## 1.20.1 (2018-07-18) (beta)
+
+### Fixes
+
+1. (C)(FO) Launch new device from zipped configuration + change SN does not work
+1. (C)(FN) Persist laser control adjustment mode attenuator value 
+1. (C)(FN) Optical device view does not have vertical scrollbar
+1. (C)(FO) Right corner buttons (minimize,close etc) not visible if window is narrow
+
+### Changed behaviors
+1. (C) Show 'Hardware failure' indication instead of shutter&wavelength control in case of 'Hardware failure'
+
+### New Features 
+1. (S) Add Carbide laser control 
+1. (C) Add/remove/reorder motors tool: can import motor from zipped configuration
+
+
+
 ## 1.20.0 (2018-06-18) 
-
-
 
 ### Changed behaviours
 1. (C) 'Tools > Launch device from zipped configuration' asks whether user wants to launch device as demo or as real one, if configuration is demo
