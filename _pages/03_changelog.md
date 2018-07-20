@@ -21,7 +21,7 @@ permalink: /changelog/
 
 
 
-## 1.20.2 (2018-07-18) (beta)
+## 1.20.2 (2018-07-18) (beta), (2017-07-20) (public)
 
 ### Fixes
 
