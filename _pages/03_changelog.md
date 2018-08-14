@@ -20,6 +20,18 @@ permalink: /changelog/
 
 
 
+## 1.20.3 (2018-08-14) (beta)
+
+### Fixes
+
+1. (FO) 'Misc>Configuration>Save device configuration as .zip file' sometimes fails silently
+
+
+### New Features
+
+1. (S) Beta support for HarpiaV0 motor board
+
+
 
 ## 1.20.2 (2018-07-18) (beta), (2017-07-20) (public)
 
