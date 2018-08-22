@@ -19,6 +19,13 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.20.4 (2018-08-22) (beta)
+
+### Fixes
+
+1. (C)(FO) Device tabs change order randomly on selection after application start
+
+
 
 ## 1.20.3 (2018-08-14) (beta)
 
