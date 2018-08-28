@@ -19,6 +19,18 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+
+
+## 1.21.0 (2018-08-28)
+
+### New Features
+1. (S) TurnOnLeftSwitchForHomingOnly custom homing logic
+1. (C) Add copy-paste commands for motor calibration curves in tree view
+
+
+
+
+
 ## 1.20.4 (2018-08-22) (beta)
 
 ### Fixes
