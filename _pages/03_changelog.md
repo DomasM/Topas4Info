@@ -5,7 +5,7 @@ permalink: /changelog/
 ---
 
 
-**All fixes/ new features/ changed behaviours are listed from the most important to the least important**
+**All fixes/ new features/ changed behaviors are listed from the most important to the least important**
 
 
 **Currently version numbers are the same for Topas4Server and WinTopas4 (simultaneous release)**
@@ -141,7 +141,7 @@ permalink: /changelog/
 1. (FO) Demo device can control real Pharos laser without authentication
 
 ### New Features
-1. Neutral positons have interaction filter, like motors and messages in separation logic
+1. Neutral positions have interaction filter, like motors and messages in separation logic
 
 ### Changed behaviours
 1. Demo devices have the same motors configuration, global property 'IsDemo' in General.json is used instead
@@ -264,7 +264,7 @@ permalink: /changelog/
 1. (C)(FO) Can't save device configuration as zip file if resulting zip file is larger than 10MB
 
 ### Changed behaviors
-1. (C) Completed actions in separation images are no longer greyed out
+1. (C) Completed actions in separation images are no longer grayed out
 
 
 
