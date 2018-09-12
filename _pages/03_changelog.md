@@ -21,7 +21,7 @@ permalink: /changelog/
 
 
 
-## 1.21.0 (2018-08-28)
+## 1.21.0 (2018-08-28) (beta) (2018-09-12) (public)
 
 ### New Features
 1. (S) TurnOnLeftSwitchForHomingOnly custom homing logic
