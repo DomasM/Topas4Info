@@ -20,6 +20,22 @@ permalink: /changelog/
 
 
 
+## 1.22.0 (2018-09-17) (beta) 
+
+
+### Fixes
+
+1. (C)(FO) Motor sometimes briefly moves in the opposite direction when position is incremented/decremented from UI
+
+### Changed behaviours
+1. Saved motor positions use units instead of steps
+
+### New Features
+1. (C) Min/max possible wavelength hint in 'Calibration>Optical>Create'
+1. (C) Change pump wavelength tool: option to choose whether to keep input or output wavelengths the same 
+1. (C) Option to recreate input-output curve in 'Calibration>Optical>Create' 
+
+
 
 ## 1.21.0 (2018-08-28) (beta) (2018-09-12) (public)
 
