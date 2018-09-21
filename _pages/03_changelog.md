@@ -19,6 +19,14 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.22.1 (2018-09-21) (beta) 
+
+
+### Fixes
+
+1. (S)(FO) Device location might stop working after some time when when server is running
+
+
 
 ## 1.22.0 (2018-09-17) (beta) 
 
