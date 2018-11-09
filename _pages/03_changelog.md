@@ -19,7 +19,15 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
-## 1.22.1 (2018-09-21) (beta) 
+## 1.22.2 (2018-11-09) (beta)
+
+
+### New Feautures
+
+1. (C) Add 'Move all postions by offset' button to named motor positions control
+
+
+## 1.22.1 (2018-09-21) (beta),  (2017-11-09) (public)
 
 
 ### Fixes
@@ -45,7 +53,7 @@ permalink: /changelog/
 
 
 
-## 1.21.0 (2018-08-28) (beta) (2018-09-12) (public)
+## 1.21.0 (2018-08-28) (beta), (2018-09-12) (public)
 
 ### New Features
 1. (S) TurnOnLeftSwitchForHomingOnly custom homing logic
