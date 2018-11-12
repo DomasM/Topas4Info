@@ -19,6 +19,13 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.23.0 (2018-11-12) (beta)
+
+### New Feautures
+
+1. (C) Add CustomHomingLogic values: 'Try5Times' and 'Try10Times'
+
+
 ## 1.22.2 (2018-11-09) (beta)
 
 
