@@ -19,6 +19,13 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.24.0 (2018-11-30)
+
+### Fixes
+
+1. (S) Harpia motor board reset procedure bug fixes
+
+
 ## 1.23.0 (2018-11-12) (beta)
 
 ### New Feautures
