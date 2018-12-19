@@ -19,6 +19,15 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.25.0 (2018-12-19) (beta)
+
+### Fixes
+
+1. Spline interpolation in calibration curves
+1. (S) Harpia motor board exit on hardware error
+
+
+
 ## 1.24.0 (2018-11-30)
 
 ### Fixes
