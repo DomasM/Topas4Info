@@ -19,6 +19,22 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.26.0 (2019-02-26) (beta)
+
+### Fixes
+
+1.(S) Harpia motor board motor configuration: add new properties and other changes
+1.(C)(FN) Inform user when he tries to launch device with the same serial number that is already in use on this PC instead of failing later on 
+
+### Changed behaviours
+
+1. On optical configuration change: close shutter, set wavelength using new configuration, and inform user with pop-up dialog in WinTopas4
+
+### New Features
+
+1. Motors can be set to be accessible only with elevated access level
+
+
 ## 1.25.0 (2018-12-19) (beta)
 
 ### Fixes
