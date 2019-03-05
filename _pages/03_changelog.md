@@ -35,7 +35,7 @@ permalink: /changelog/
 1. Motors can be set to be accessible only with elevated access level
 
 
-## 1.25.0 (2018-12-19) (beta)
+## 1.25.0 (2018-12-19) (beta),  (2019-02-19) (public)
 
 ### Fixes
 
