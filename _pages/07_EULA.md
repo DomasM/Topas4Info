@@ -6,7 +6,7 @@ nolink : true
 ---
 
 
-This end-user license agreement (EULA) is a legal agreement between you (End-user or You) and Light Conversion (legal name UAB MGF Šviesos Konversija) of Keramikų 2B, Vilnius, Lithuania (Light Conversion, Us or We) for use of the Topas4 software (the “Service”).
+This end-user license agreement (EULA) is a legal agreement between you (End-user or You) and Light Conversion (legal name Light Conversion, UAB) of Keramikų 2B, Vilnius, Lithuania (Light Conversion, Us or We) for use of the Topas4 software (the “Service”).
 
 ## Important notice:
 
