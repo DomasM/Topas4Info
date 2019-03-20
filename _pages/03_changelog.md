@@ -19,6 +19,17 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.26.2 (2019-03-20) 
+
+### Fixes
+
+1.(C)(FN) Separation configuration tables have scrollbars
+
+
+### Changed behaviours
+1.(C) Change legal company name to Light Conversion, UAB
+
+
 ## 1.26.0 (2019-02-26) (beta)
 
 ### Fixes
