@@ -19,6 +19,14 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.26.5 (2019-04-10) 
+
+### Changed behaviours
+
+1.(C) Remove 'Send feedback' function
+
+
+
 ## 1.26.2 (2019-03-20) 
 
 ### Fixes
