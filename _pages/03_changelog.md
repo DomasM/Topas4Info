@@ -19,6 +19,13 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.26.6 (2019-04-11) 
+
+### Fixes
+
+1.(C)(FO) 'Set offset' button in motor curve calibration window sets offset value to NaN (Not a Number) if the same motor is included in neutral positions
+
+
 ## 1.26.5 (2019-04-10) 
 
 ### Changed behaviours
