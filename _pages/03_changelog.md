@@ -19,6 +19,14 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+
+## 1.26.7 (2019-04-12) 
+
+### Fixes
+
+1.(C)(FO) Moving motor in one direction by holding down arrow key while calibration curve is visible makes motor jumpy: it skips back every second or so 
+
+
 ## 1.26.6 (2019-04-11) 
 
 ### Fixes
