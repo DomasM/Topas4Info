@@ -19,6 +19,18 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.27.1 (2019-05-02) (beta) 
+
+### Changed behaviours
+
+1. Change order of separation-like messages shown when optical configuration is activated
+
+## 1.27.0 (2019-04-30) (beta) 
+
+### New Feautures
+
+1. Separation-like messages can be added to optical configuration. They are shown when optical configuration is activated
+
 
 ## 1.26.7 (2019-04-12) 
 
