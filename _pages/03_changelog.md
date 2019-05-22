@@ -18,6 +18,12 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.28.0 (2019-05-22)
+
+### Fixes
+
+1. (FO)Background motor index for interaction can become out-of-sync with current motor curves
+
 
 ## 1.27.1 (2019-05-02) (beta) 
 
