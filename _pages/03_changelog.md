@@ -18,6 +18,13 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+
+## 1.30.1.0 (2019-05-29)
+
+### Fixes
+
+1. (FO) Hotfix for 1.28.0:  Background motor for interaction is set to the first curve in interaction on server startup
+
 ## 1.28.0 (2019-05-22)
 
 ### Fixes
