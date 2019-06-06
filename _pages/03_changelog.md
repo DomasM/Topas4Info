@@ -18,8 +18,16 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.33.0 (2019-06-06) (beta)
 
-## 1.30.1.0 (2019-05-29)
+### New Features
+1. Support for new motor board (Eth)
+
+### Changed behaviours
+1. (C)'Create installer with current configuration' functionality has been disabled due to introduction of signed installers. Please use zipped configurations and vanilla installer.
+
+
+## 1.30.1 (2019-05-29)
 
 ### Fixes
 
