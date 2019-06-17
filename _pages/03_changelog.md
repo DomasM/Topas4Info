@@ -18,6 +18,13 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+
+## 1.33.1 (2019-06-17) (beta)
+
+
+### Changed behaviours
+1. (S)New motor board (Eth) shutter state serialization changes
+
 ## 1.33.0 (2019-06-06) (beta)
 
 ### New Features
