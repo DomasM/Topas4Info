@@ -18,6 +18,14 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+                
+
+## 1.33.3 (2019-06-25) (beta)
+
+
+### Changed behaviours
+1. (S)Eth motor board related changes
+
 
 ## 1.33.1 (2019-06-17) (beta)
 
