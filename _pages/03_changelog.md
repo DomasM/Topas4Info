@@ -18,7 +18,18 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
-## 1.36.0 (2019-07-19) (beta)
+
+## 1.37.0 (2019-08-22) (beta)
+
+
+### Fixes
+
+1. Ignore/inverse limit switches for Eth motor board
+1. (C)(FO) Named motor positions buttons presses sometimes ignored if they are rapid 
+1. Wavelength setting never finishes if other device curve is in calibration and messages from other device should be shown
+
+
+## 1.36.0 (2019-07-19) (beta), (2019-08-22) (public)
 
 
 ### Fixes
