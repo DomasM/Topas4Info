@@ -18,6 +18,12 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+##1 1.38.0 (2019-08-28) (beta)
+
+### Fixes
+
+1. (S)(FO) Loss of connection to board is reported if device contains multiple motor boards and any of the motors are in forbidden range on startup
+
 
 ## 1.37.0 (2019-08-22) (beta)
 
