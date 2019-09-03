@@ -18,7 +18,24 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
-##1 1.38.0 (2019-08-28) (beta)
+
+
+
+## 1.40.0 (2019-09-03) (beta)
+
+### Fixes
+
+1. (S) Fix shutter might be reported as open even if it is closed when device is started and no shutter operations have been performed 
+
+
+## 1.39.0 (2019-09-03) (beta)
+
+### Fixes
+
+1. (S) Fix connection code if two Eth motor boards are used in single device
+
+
+## 1.38.0 (2019-08-28) (beta)
 
 ### Fixes
 
