@@ -20,6 +20,12 @@ permalink: /changelog/
 
 
 
+## 1.41.0 (2019-09-05) (beta)
+
+### Changed behaviours
+
+1. (S) Give more power to 'Don't close shutter' option in wavelength setting options. Shutter won't be closed when current output is undefined or messages are not critical 
+
 
 ## 1.40.0 (2019-09-03) (beta)
 
