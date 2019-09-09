@@ -41,7 +41,7 @@ permalink: /changelog/
 1. (S) Fix connection code if two Eth motor boards are used in single device
 
 
-## 1.38.0 (2019-08-28) (beta)
+## 1.38.0 (2019-08-28) (beta), (2019-09-09) (public)
 
 ### Fixes
 
