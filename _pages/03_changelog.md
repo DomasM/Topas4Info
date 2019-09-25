@@ -19,6 +19,15 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+
+## 1.44.0 (2019-09-25) (beta)
+
+### Fixes
+
+1. (S)(FO) Hotfix for 1.43.0, RampDivision, PulseDivision and StepDivision not set at startup for Topas3 board
+
+
+
 ## 1.43.0 (2019-09-25) (beta)
 
 ### Fixes
