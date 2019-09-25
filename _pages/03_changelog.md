@@ -19,6 +19,31 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.43.0 (2019-09-25) (beta)
+
+### Fixes
+
+1. (S)(FO) Public API authentication service is behind authentication firewall, thus making it quite pointless
+
+
+## 1.42.0 (2019-09-25) (beta)
+
+### Fixes
+
+1. (S)(FO) Ignore left/right switch parameters were not handled correctly with Eth motor board
+1. (S)(FN) Use 'NoGUI' PI_GCS2_DL to control PI motor boards to avoid 'Cannot initialize OLE' pop-up
+
+
+### Changed behaviours
+
+1. RampDivision, PulseDivision moved to Topas3-only motor board configuration, removed from WinTopas4 motor properties view
+2. StepDivision can be set only on board startup, removed from WinTopas4 motor properties view
+
+### New Features
+
+1. (S) Support for multiple shutters on Eht motor board
+1. (S) Add REST endpoint for pass-trough commands for Eth motor board
+
 
 ## 1.41.0 (2019-09-05) (beta)
 
@@ -187,7 +212,7 @@ permalink: /changelog/
 
 ## 1.23.0 (2018-11-12) (beta)
 
-### New Feautures
+### New Features
 
 1. (C) Add CustomHomingLogic values: 'Try5Times' and 'Try10Times'
 
@@ -195,7 +220,7 @@ permalink: /changelog/
 ## 1.22.2 (2018-11-09) (beta)
 
 
-### New Feautures
+### New Features
 
 1. (C) Add 'Move all postions by offset' button to named motor positions control
 
