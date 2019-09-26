@@ -20,6 +20,14 @@ permalink: /changelog/
 
 
 
+## 1.45.0 (2019-09-26) (beta)
+
+### Fixes
+
+1. (S) Fixes for limit switch swapping/eanbling for Eth motor board
+
+
+
 ## 1.44.0 (2019-09-25) (beta)
 
 ### Fixes
