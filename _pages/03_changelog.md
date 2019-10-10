@@ -19,6 +19,22 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.48.0 (2019-10-10) (beta)
+
+### Fixes
+
+1. (S)(FO) Ignore limit switch parameters are restored incorrectly after motor reset in some cases
+2. (C)(FO) Application crashes when new motor is added in 'Motors>Add/Remove/Reorder tool'
+
+
+
+## 1.46.0 (2019-10-08) (beta)
+
+### New features
+
+1. Add 'Move motor sometimes' tool
+
+
 
 ## 1.45.0 (2019-09-26) (beta)
 
