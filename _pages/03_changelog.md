@@ -19,6 +19,10 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.49.0 (2019-10-25) - No changes
+
+
+
 ## 1.48.0 (2019-10-10) (beta)
 
 ### Fixes
