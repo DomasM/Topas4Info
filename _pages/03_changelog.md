@@ -19,6 +19,20 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.51.0 (2019-10-30)
+
+### Fixes
+
+1.(S) Fix configuration history difference generation in cases when new file appears
+
+
+## 1.50.0 (2019-10-29) 
+
+### Fixes
+
+1. (S)(FN) Do not try to read ADC and temperature/humidity sensor values from boards with 6 motors
+
+
 ## 1.49.0 (2019-10-25) - No changes
 
 
