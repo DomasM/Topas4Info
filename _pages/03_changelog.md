@@ -19,6 +19,15 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.53.0 (2019-11-19)
+
+### Fixes
+
+1.(C)(FO) 'Connect' button next to serial number is very buggy in case tab is already waiting for connection to another device
+1.(C)(FO) Fix add/remove/reoder motors tool, add motor from .zip crashes WinTopas4 when sending configuration to server or checking sanity
+
+
+
 ## 1.51.0 (2019-10-30)
 
 ### Fixes
