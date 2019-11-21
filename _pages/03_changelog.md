@@ -19,7 +19,24 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
-## 1.53.0 (2019-11-19) (beta)
+## 1.54.0 (2019-11-21) (beta)
+
+### Fixes
+
+1. Phrase 'due safety reasons' corrected to 'for safety reasons'
+
+### New features
+
+1.(S) Add motors positions logger (Configuration\Settings\Loggers.json > MotorPositions)
+
+### Changed behaviours
+
+1.(S) 'Configuration\Settings\Logger.json' file no is longer used
+
+
+
+
+## 1.53.0 (2019-11-19) (beta), (2019-11-21) (public)
 
 ### Fixes
 
