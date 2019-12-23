@@ -19,7 +19,13 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
-## 1.54.0 (2019-11-21) (beta)
+## 1.55.0 (2019-12-23) (beta)
+
+### New Feautures
+
+1. Add 'Manage Eth motor boards' tool
+
+## 1.54.0 (2019-11-21) (beta),  (2019-12-23) (public)
 
 ### Fixes
 
