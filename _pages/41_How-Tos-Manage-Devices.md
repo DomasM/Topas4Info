@@ -29,7 +29,7 @@ nolink: true
 
 
 
-### <a name="Vid004"></a>Manage self-hosts (prevent servers from staring with WinTopas4 and delete old servers)
+### <a name="Vid004"></a>Manage self-hosts (prevent servers from starting with WinTopas4 and delete old servers)
 <button class="btn" data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid004">
     Copy address to this how-to
 </button>
