@@ -18,8 +18,14 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.57.0 (2020-01-13)
 
-## 1.55.0 (2019-12-23) (beta)
+### New Feautures
+
+1. Add Newport MFA-PP motor parameters template
+
+
+## 1.55.0 (2019-12-23) (beta), (2019-01-13) (public)
 
 ### New Feautures
 
