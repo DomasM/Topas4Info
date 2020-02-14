@@ -18,24 +18,36 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+
+## 1.62.0 (2020-02-14)(beta)
+
+### New Feautures 
+
+1. (S) Topas device location responses contains MotorBoards info
+
+## 1.61.0 (2020-01-22)(beta), (2020-02-14)(public)
+
+### Fixes 
+
+1. (C)(FO) Fix wrong acceleration values are set for Eth motor board from presets
+
 ## 1.57.0 (2020-01-13)
 
 ### New Feautures
 
-1. Add Newport MFA-PP motor parameters template
-
+1. (C) Add Newport MFA-PP motor parameters template
 
 ## 1.55.0 (2019-12-23) (beta), (2019-01-13) (public)
 
 ### New Feautures
 
-1. Add 'Manage Eth motor boards' tool
+1. (C) Add 'Manage Eth motor boards' tool
 
 ## 1.54.0 (2019-11-21) (beta),  (2019-12-23) (public)
 
 ### Fixes
 
-1. Phrase 'due safety reasons' corrected to 'for safety reasons'
+1.(C) Phrase 'due safety reasons' corrected to 'for safety reasons'
 
 ### New features
 
