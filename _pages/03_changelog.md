@@ -19,7 +19,20 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
-## 1.62.0 (2020-02-14)(beta)
+
+## 1.64.0 (2020-03-19)(beta)
+
+### Fixes 
+
+1. (S)(FN) Check max maximal motor position on startup
+
+### Changed behaviours
+
+1. (C) Alt+number sets focus on motor calibration curve even for motors without slider control
+1. (C) Device nicknames in multiple devices view
+
+
+## 1.62.0 (2020-02-14)(beta), (2020-03-18)(public)
 
 ### New Feautures 
 
