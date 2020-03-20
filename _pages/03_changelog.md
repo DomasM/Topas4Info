@@ -20,6 +20,13 @@ permalink: /changelog/
 
 
 
+## 1.65.0 (2020-03-19)(beta)
+
+### New Feautures
+
+1. Explicit usable wavelength range can be set for each interaction
+
+
 ## 1.64.0 (2020-03-19)(beta)
 
 ### Fixes 
