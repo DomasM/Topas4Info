@@ -19,6 +19,13 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.66.0 (2020-03-25(beta)
+
+### Fixes
+
+1. Explicit usable wavelength range not used for possible output range calculation if interaction has parent interaction
+
+
 
 ## 1.65.0 (2020-03-19)(beta)
 
