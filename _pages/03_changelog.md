@@ -19,7 +19,22 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
-## 1.66.0 (2020-03-25(beta)
+
+## 1.70.0 (2020-04-10)(beta)
+
+### Changed behaviours
+
+1. Internal IL weaving changes
+1. (S) Close shutter if any motor from separation configuration moves while setting wavelength
+
+## 1.67.0 (2020-03-25)(beta), (2020-04-10)(public)
+
+### Changed behaviours
+
+1. (S) Use diffent commands to query Eth motor board periodically 
+
+
+## 1.66.0 (2020-03-25)(beta)
 
 ### Fixes
 
