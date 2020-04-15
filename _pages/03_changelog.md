@@ -19,6 +19,16 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.71.0 (2020-04-15)(beta)
+
+### Changed behaviours
+
+1. Round calibration points input value to 0.001 for all curves, round calibration points output value to 0.001 for interaction input-output relationship curve 
+
+### Fixes
+
+1.(C)(FO) 'Change Pump wavelength' tool might not correctly set same input values for range end motor curves points
+
 
 ## 1.70.0 (2020-04-10)(beta)
 
