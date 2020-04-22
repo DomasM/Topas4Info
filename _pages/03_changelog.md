@@ -18,6 +18,11 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.72.0 (2020-04-22)(beta)
+
+### Changed behaviours
+
+1. (S) Change communication with Eth motor board timout logic
 
 ## 1.71.0 (2020-04-15)(beta)
 
