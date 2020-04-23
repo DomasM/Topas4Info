@@ -18,6 +18,20 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+
+
+
+## 1.73.0 (2020-04-23)(beta)
+
+### New Feautures
+1. (S) For devices with multiple Eth motor boards shutters on all boards are accessible
+
+### Changed behaviours
+
+1. (S) Added optinal 'Alias' in Loggers configuration, which will be used instead of device SN
+
+
+
 ## 1.72.0 (2020-04-22)(beta)
 
 ### Changed behaviours
