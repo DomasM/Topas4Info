@@ -20,6 +20,13 @@ permalink: /changelog/
 
 
 
+## 1.74.0 (2020-04-24)(beta)
+
+### Fixes
+
+1.(S)(FO) Hotfix for 1.73.0, device with Eth motor board might crash on startup
+
+
 
 ## 1.73.0 (2020-04-23)(beta)
 
