@@ -20,7 +20,24 @@ permalink: /changelog/
 
 
 
-## 1.74.0 (2020-04-24)(beta)
+## 1.77.0 (2020-06-03)(beta)
+
+### Changed behaviours
+
+1.(C) Minor output control UI tweaks
+
+### New Feautures
+1. (S) Add custom motor homing logic: "Skip" 
+
+
+## 1.76.0 (2020-05-25)(beta)
+
+### Changed behaviours
+
+1.(C) Shutter button moved to the left, interaction selection button and interlock indicator to the right, other UI tweaks
+
+
+## 1.74.0 (2020-04-24)(beta), (2020-05-25)(public)
 
 ### Fixes
 
