@@ -19,6 +19,17 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.81.0 (2020-06-23)(beta)
+
+### Fixes
+
+1.(C)(FO) Flat grey shutter button
+
+### New Feautures
+
+1. (S) Optionally sync laser output control to OPA shutter (Shutter.json > "SyncLaserOutputControl":true)
+
+
 
 ## 1.77.0 (2020-06-03)(beta)
 
