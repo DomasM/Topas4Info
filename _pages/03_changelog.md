@@ -19,6 +19,17 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.84.0 (2020-07-07)(beta)
+
+### Fixes
+
+1.(FO)(S) Various shutter logic issues
+2.(FO)(C) In devices with a lot of motors some of them might be invisble in saved motor positions filter view
+
+### Changed behaviours
+
+1.(C) Enable automatic firmware update for Eth motor boards
+
 ## 1.81.0 (2020-06-23)(beta)
 
 ### Fixes
