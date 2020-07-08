@@ -19,6 +19,15 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+
+## 1.85.0 (2020-07-08)(beta)
+
+### New Feautures
+
+1. (S) Optionally close shutter during each wavelength change (Shutter.json > "AlwaysCloseShutterOnWavelengthChange":true)
+
+
+
 ## 1.84.0 (2020-07-07)(beta)
 
 ### Fixes
