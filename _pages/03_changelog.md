@@ -20,7 +20,7 @@ permalink: /changelog/
 
 
 
-## 1.85.0 (2020-07-08)(beta)
+## 1.85.0 (2020-07-08)(beta),(2020-07-29)(public)
 
 ### New Feautures
 
