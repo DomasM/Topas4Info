@@ -20,6 +20,19 @@ permalink: /changelog/
 
 
 
+## 1.87.0 (2020-08-12)(beta)
+
+### Changed behaviours
+
+1. (S) Motor reset logic tweaks for motors with big zero offset
+1. (S) Shutters connected to Eth motor board are opend and closed softly
+
+### New Feautures
+
+1. (S) Add option to swap limit switches for Eth motor board motors (SwapSwitches)
+
+
+
 ## 1.85.0 (2020-07-08)(beta),(2020-07-29)(public)
 
 ### New Feautures
