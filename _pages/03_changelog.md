@@ -19,6 +19,14 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.88.0 (2020-08-14)(beta)
+
+### Changed behaviours
+
+1. (S) Shutter is closed for twin OPA device while motor is in forbidden range or reseting.
+Servers for both devices should be located inside same C:\Programs\WinTopas4\Resources\SelfHostedServer folder, serials numbers should look like (15414,A5414) or (PA9300,P19300) and both devices should be running.
+
+
 
 ## 1.87.0 (2020-08-12)(beta)
 
