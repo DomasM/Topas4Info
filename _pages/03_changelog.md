@@ -19,6 +19,13 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.88.1 (2020-08-17)(beta)
+
+### Fixes
+
+1. (S)(FO) Six motor Eth boards are treated like they have four shutters too
+
+
 ## 1.88.0 (2020-08-14)(beta)
 
 ### Changed behaviours
