@@ -19,6 +19,11 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.88.7 (2020-08-31)(beta)
+
+### Fixes
+
+1. (S)(FN) Do not send FRAM_SAVE command to Eth motor board, because it has been remove since fw 3.39.0
 
 ## 1.88.6 (2020-08-31)(beta)
 
