@@ -19,6 +19,14 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+
+## 1.88.6 (2020-08-31)(beta)
+
+### Fixes
+
+1. (S)(FO) Connection to Eth motor board is lost during startup if firmware version >3.36.0
+
+
 ## 1.88.1 (2020-08-17)(beta)
 
 ### Fixes
