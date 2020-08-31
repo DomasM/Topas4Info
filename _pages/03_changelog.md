@@ -19,6 +19,17 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+
+## 1.88.8 (2020-08-31)(beta)
+
+### Changed behaviours
+
+1. (S) Enable firmware updates for Eth motor boards
+
+### New Feautures
+
+1. (S) Track Eth motor board temperature
+
 ## 1.88.7 (2020-08-31)(beta)
 
 ### Fixes
