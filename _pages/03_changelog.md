@@ -19,6 +19,24 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.89.1 (2020-09-08)(beta)
+
+### New Feautures
+
+1. (C) Buttons for motors with named positions in quick selection/search dialog
+
+
+## 1.89.0 (2020-09-04)(beta)
+
+### New Feautures
+
+1. (C) Add motor single selected motor control next to output control in elevated access level
+2. (C) Add quick motor selection/search dialog via hotkey Alt+X or Ctrl+F
+
+### Changed behaviours
+
+1. (S) Switch to UDP communication with Eth motor boards (FW >= 4.0.0)
+
 
 ## 1.88.8 (2020-08-31)(beta)
 
