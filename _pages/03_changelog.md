@@ -19,6 +19,11 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.89.2 (2020-10-06)(public)
+
+### Fixes
+1. (S) Handle CAN timeouts for Eth motor board
+
 ## 1.89.1 (2020-09-08)(beta)
 
 ### New Feautures
