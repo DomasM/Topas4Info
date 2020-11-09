@@ -19,6 +19,19 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+
+## 1.90.0 (2020-11-09)(beta)
+
+### New Feautures
+1. Integrated power meters: calibration by wavelenght and interaction, conditional enable, live comparision with reference data 
+
+### Fixes
+1. (C) Delete oversized tracelog for WinTopas4 on application startup
+2. (S)(FN) Tweak UDP communication to avoid misaligned query-response pairing
+3. (S)(FN) Bump Eth motor board firmware to 4.3.0, bootloader to 4.13.3
+
+
+
 ## 1.89.2 (2020-10-06)(public)
 
 ### Fixes
