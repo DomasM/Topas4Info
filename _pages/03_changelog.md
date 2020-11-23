@@ -19,6 +19,14 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.92.1 (2020-11-23)(beta)
+
+### New Feautures
+1. (C) Motors panel is resized in fixed increments
+
+### Changed behaviours
+1. Target .Net 4.6.2 framework
+
 
 ## 1.90.0 (2020-11-09)(beta)
 
