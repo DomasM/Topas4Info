@@ -18,6 +18,21 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.93.0 (2020-12-08)(beta)
+
+### New Feautures
+1. UI for laser control configuration
+1. Extended laser control capabilities: preset selection, go to standby, show current status
+1.(S) Support for mixed-hardware shutters (use USB motor board and  Eth motor board shutters in the same device)
+
+### Changed behaviours
+1. (C) Adjustment mode in laser controls changes not only attenuator but pulse picker too
+
+
+## 1.92.2 (2020-12-03)(beta)
+
+### Fixes
+1. (C)(FO) WinTopas4 installer contains corrupt drivers for USB motor board
 
 ## 1.92.1 (2020-11-23)(beta)
 
