@@ -18,12 +18,21 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.94.0 (2020-12-11)(beta)
+
+### New Feautures
+
+1. (S) Support for Ophir, Fode power meters
+1. Power meter value latching, reference curve selection by named motor position and power logging
+1. (S) Support for Pharos2 and Pharos+HBPC laser control from WinTopas4
+
+
 ## 1.93.0 (2020-12-08)(beta)
 
 ### New Feautures
 1. UI for laser control configuration
 1. Extended laser control capabilities: preset selection, go to standby, show current status
-1.(S) Support for mixed-hardware shutters (use USB motor board and  Eth motor board shutters in the same device)
+1. (S) Support for mixed-hardware shutters (use USB motor board and  Eth motor board shutters in the same device)
 
 ### Changed behaviours
 1. (C) Adjustment mode in laser controls changes not only attenuator but pulse picker too
