@@ -18,6 +18,16 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+
+## 1.95.0 (2020-12-14)(beta)
+
+### Changed behaviours
+
+1. (C) 'Enter wavelength' text displayed instead of -1 when wavelength is not set
+1. (C) Focus wavelength textbox hotkey changed to Alt+D
+1. (C) Change views in mini mode hotkey changed to Alt+D
+
+
 ## 1.94.0 (2020-12-11)(beta)
 
 ### New Feautures
