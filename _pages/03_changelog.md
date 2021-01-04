@@ -19,6 +19,20 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.96.0 (2020-12-30)(beta)
+
+### New Feautures
+
+1. Each optical configuration can be assigned required pump laser preset. Shutter cannot be opened if currently active laser preset is incorrect or there is no communication with laser
+
+
+## 1.95.1 (2020-12-23)(beta)
+
+### Fixes
+1. (S)(FN) Timeout for communication with Eth motor board increased
+
+
+
 ## 1.95.0 (2020-12-14)(beta)
 
 ### Changed behaviours
