@@ -19,6 +19,13 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.97.0 (2021-01-13)
+
+### Changed behaviours
+
+1. New icons
+
+
 ## 1.96.0 (2020-12-30)(beta)
 
 ### New Feautures
