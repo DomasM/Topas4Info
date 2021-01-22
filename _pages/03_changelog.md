@@ -18,6 +18,20 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.98.0 (2021-01-22)(beta)
+
+### Fixes
+
+1. (C)(FO) Motor super units range min and range max might be reset to default values (tentative fix)
+
+### Changed behaviours
+
+1. Motor control tweaks
+
+### New Feautures
+
+1. When shutter is closed for safety reasons they are listed in indicator tooltip
+
 
 ## 1.97.0 (2021-01-13)
 
