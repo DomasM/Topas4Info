@@ -22,11 +22,11 @@ permalink: /changelog/
 
 ### Changed behaviours
 
-1.(C) 'Misc' tab reorganized and moved to Output control settings
-1.(C) Saved motor positions are not available in User access level
-1.(C) Reorganized 'Main' tab: no expanders in User access level
-1.(C) Image tooltip in messages no longer shown if image is already quite big
-1.(C) 'Main' and 'Misc' selector no longer visible in User access level
+1. (C) 'Misc' tab reorganized and moved to Output control settings
+1. (C) Saved motor positions are not available in User access level
+1. (C) Reorganized 'Main' tab: no expanders in User access level
+1. (C) Image tooltip in messages no longer shown if image is already quite big
+1. (C) 'Main' and 'Misc' selector no longer visible in User access level
 
 ### Fixes
 1. (C) Motors section might contain only one column of motors with lots of white space instead of two columns
