@@ -18,6 +18,18 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+
+## 1.100.0 (2021-01-29)(beta)
+
+### Changed behaviours
+
+1. (C) Add units indicator near wavelength textbox
+1. (C) Ask user whether he  wants to set wavelength using any interaction if selected interactions do not support selected wavelength
+1. (C) Change textbox style
+1. (C) Change format of current output info in 'Main' tab
+1. (C) Other UI tweaks
+
+
 ## 1.99.0 (2021-01-24)(beta)
 
 ### Changed behaviours
