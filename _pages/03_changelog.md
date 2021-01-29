@@ -19,7 +19,8 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
-## 1.100.0 (2021-01-29)(beta)
+
+## 1.101.0 (2021-01-29)(beta)
 
 ### Changed behaviours
 
@@ -27,6 +28,8 @@ permalink: /changelog/
 1. (C) Ask user whether he  wants to set wavelength using any interaction if selected interactions do not support selected wavelength
 1. (C) Change textbox style
 1. (C) Change format of current output info in 'Main' tab
+1. (C) Replace cm-1 with superscripted version everywhere
+1. (C) Align pump laser controls with shutter and wavelength controls
 1. (C) Other UI tweaks
 
 
