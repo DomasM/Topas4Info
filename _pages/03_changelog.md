@@ -18,6 +18,16 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.102.0 (2021-01-29)(beta)
+
+### New Feautures
+
+1. Reference-only power meter: add PowerScanner measurement file to OPA, expected output power is shown when wavelength is set
+1. Linked devices for shutter control: close shutter for other devices when motor is homing or in forbidden range
+1. Add optical configuration sanity checks for GDD calibration curves 
+
+### Fixes
+1. (C)(FO) In 'Shutter is closed for safety reasons' tooltip duplicate reasons might appear
 
 
 ## 1.101.0 (2021-01-29)(beta)
