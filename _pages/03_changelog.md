@@ -18,7 +18,17 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
-## 1.102.0 (2021-01-29)(beta)
+## 1.103.0 (2021-02-22)(beta)
+
+
+### Changed behaviours
+1. (S) Ground-up shutter behaviour changes when output of one device is used by another. Shutter control is now synced to primary device. Shutter is closed for secondary device when leaving such interaction in primary device. 
+
+### Fixes
+1. (S)(FO) If other device curve is used in calibration other device might show 'Waiting for user' message while main device thinks that wavelenght setting has been completed
+
+
+## 1.102.0 (2021-02-11)(beta)
 
 ### New Feautures
 
