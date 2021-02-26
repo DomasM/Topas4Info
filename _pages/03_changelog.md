@@ -18,6 +18,15 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+
+
+## 1.104.0 (2021-02-26)(beta)
+
+
+### Fixes
+1. (FN) Add A0 and A1 sockets as valid selections for Eth motor board diode sensors
+
+
 ## 1.103.0 (2021-02-22)(beta)
 
 
