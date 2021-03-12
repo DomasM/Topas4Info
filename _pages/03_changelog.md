@@ -20,6 +20,25 @@ permalink: /changelog/
 
 
 
+
+## 1.106.0 (2021-03-12)(beta)
+
+
+### New Feautures
+
+1. Many additional configuration options for integrated power meters
+
+### Changed behaviours
+1. (C) General UI tweaks
+
+## 1.105.0 (2021-03-04)(beta)
+
+
+### Fixes
+1. (FO)(S) Power as measured by internal power meters/diodes is incorrectly divided by laser pulse picker
+
+
+
 ## 1.104.0 (2021-02-26)(beta)
 
 
