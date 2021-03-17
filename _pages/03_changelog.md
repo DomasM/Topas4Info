@@ -19,6 +19,14 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.107.0 (2021-03-17)(beta)
+
+### Fixes
+1. (FO)(S) When output of one device is used by another shutter of secondary device will be closed but not opened if setting wavelength for primary device with small wavelength difference (as shutter is not closed for primary device)
+2. (FO)(S) Topas4Server might not exit cleanly and leave zombie process if Eth motor board is used and there has been 'Hardware Failure'
+
+### Changed behaviours
+1. (C) Revert to motor curve view which shows both chart and table view
 
 
 ## 1.106.0 (2021-03-12)(beta)
