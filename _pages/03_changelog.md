@@ -19,6 +19,14 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.109.0 (2021-03-24)(beta)
+
+
+### New Feautures
+
+1.(C) User interface for additional shutters 
+
+
 ## 1.107.0 (2021-03-17)(beta)
 
 ### Fixes
