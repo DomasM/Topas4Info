@@ -28,6 +28,7 @@ permalink: /changelog/
 3.(S) Support for position sensors used with Eth motor board shutters
 
 ### Fixes
+
 1.(FO) Required Access Level for motor is not persisted anywhere (and never was!!)
 1.(FO)(C) Tools>Self hosts>Manage devices might crash or leave servers in inconsistent  state (various cases fixed)
 1.(FO)(C) Tools>Topas3>Convert Topas3 Configuration, launch server as demo, save device as zip, launch as real device from this zip: USB-board specific motor parameters are lost, all motors will fail to move (introduced in 1.42.0)
