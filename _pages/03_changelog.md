@@ -18,6 +18,9 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.111.0 (2021-03-31)
+
+### First public release since 1.97.0, show UI changes notification
 
 ## 1.110.0 (2021-03-25)(beta)
 
