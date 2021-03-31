@@ -24,6 +24,5 @@ permalink: /How-Tos/
 + [Device<->zip, automatic configuration changes history]({{site.baseurl}}/How-Tos/Backup-and-Restore#Vid006)
 + [Control multiple devices, manage devices]({{site.baseurl}}/How-Tos/Other#Vid002)
 + [Laser cotrol from WinTopas4]({{site.baseurl}}/How-Tos/Other#Vid004)
-+ [Add a new group to saved motor positions]({{site.baseurl}}/How-Tos/Other#Vid005)
 
 
