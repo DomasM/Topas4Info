@@ -6,65 +6,48 @@ nolink: true
 ---
 
 
-
-### <a name="Vid001"></a>Control device from smartphone/tablet via webpage
-<button class="btn" data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid001">
+### <a name="Vid006"></a>Device<->zip, automatic configuration changes history
+<button class="btn" data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid006">
     Copy address to this how-to
 </button>
 <video  controls="controls">
-<source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/WebpageControl.mp4" type="video/mp4" />
+<source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/BackupAndRestore.mp4" type="video/mp4" />
 </video>
 
-All computers, smartphones and tablets must be connected to the same local area network (LAN).
-
-
-### <a name="Vid002"></a>Control the same device from multiple clients/computers
+### <a name="Vid002"></a>Control multiple devices, manage devices 
 <button class="btn" data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002">
     Copy address to this how-to
 </button>
 <video  controls="controls">
-<source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/MultipleUserApps.mp4" type="video/mp4" />
-</video>
-
-All computers must be connected to the same local area network (LAN). Connection from another computer will require to confirm authentication, which is done be repeatedly puling and pushing devices interlock switch until authentication is complete.
-
-
-
-
-
-### <a name="Vid003"></a>Use smooth wavelength scanner
-<button class="btn" data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid003">
-    Copy address to this how-to
-</button>
-<video  controls="controls">
-<source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/HowToUserSmoothScanner.mp4" type="video/mp4" />
+<source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/DeviceManagement.mp4" type="video/mp4" />
 </video>
 
 
-### <a name="Vid004"></a>Enable Pharos laser control from WinTopas4
+### <a name="Vid004"></a>Laser control from WinTopas4
 <button class="btn" data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid004">
     Copy address to this how-to
 </button>
+<video  controls="controls">
+<source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/LaserControl.mp4" type="video/mp4" />
+</video>
 
-1. You should have PharosUserApp installed on the PC that is connected to the same local area network (LAN) as PC with Topas4Server application (might be the same PC too, of course)
+ In case you want to add Pharos laser which is connected to another PC than Topas4Server is running
+1. should have PharosUserApp installed on the PC that is connected to the same local area network (LAN)
 2. [Download](https://lightconupdater.blob.core.windows.net/installers/EnablePharosUserAppRestAPI.bat)  and run the script **on the PC where PharosUserApp is installed**. Windows will try to prevent you from running this script with a message 'Windows protected your PC'. Click 'More info' and then 'Run anyway'. Grant Administrator rights. If PharosUserApp is running you will be asked to close it, do so.
-3. You should see something like this in command line window:
-```bat
-C:\WINDOWS\system32>ipconfig /all   | find "Preferred"   | find "IPv4"   & pause
-   IPv4 Address. . . . . . . . . . . : 192.168.8.191(Preferred)
-Press any key to continue . . .
-```
-4. Find window of Topas4Server application you want to associate with Pharos. Press 'Stop', then F11.
-5. In newly opened File Explorer window you will see file LaserControl.json, open it with notepad or more reasonable text editor of your choice.
-6. Enter correct IP address. If you have PharosUserApp and Topas4Server on the same PC, just enter 127.0.0.1, otherwise enter value you saw in command line window (192.168.8.191 in this example). Now your file should look like this:
-```json
-{
-  "Type": "PharosUserAppV2_9_Comp",
-  "Address": "192.168.8.191"
-}
-```
-7. Save changes to the file, click 'Start' in Topas4ServerApplication.
-8. Now you can control Pharos from WinTopas4. To show laser controls, click on cog icon next to shutter button and turn on 'Show laser controls'.
+3. Follow steps in video
+
+
+
+
+### <a name="Vid005"></a>Add a new group to saved motors positions
+<button class="btn" data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid005">
+    Copy address to this how-to
+</button>
+<video  controls="controls">
+<source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/HowToAddNewSavedMotorPositonsGroup.mp4" type="video/mp4" />
+</video>
+
+
 
 
 
