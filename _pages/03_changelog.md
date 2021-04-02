@@ -18,6 +18,17 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.112.0 (2021-04-02)(beta)
+
+### Fixes
+1. (S)(FO) Changing shutter state might cause shutter flag to travel through beam even if using laser's output control to avoid that
+
+### New Feautures
+
+1. (S) Track ethernet interfaces count if using Eth motor boards
+1. (C) Allow server activation in Selfhosts Manager
+
+
 ## 1.111.0 (2021-03-31)
 
 ### First public release since 1.97.0, show UI changes notification
