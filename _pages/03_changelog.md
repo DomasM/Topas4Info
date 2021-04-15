@@ -18,6 +18,28 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.114.0 (2021-04-15)(beta)
+
+### Changed behaviours
+
+1. (S) Server application runs minimized to tray
+1. (C) Change forbidden ranges generation logic to exclude separation configuration 
+1. Add 'Opera-F' as valid device model
+
+### New Feautures
+
+1. (S) Add piezo actuators support (direct voltage control and slip-stick)
+1. (C) Expand Motors->Add\Remove\Reorder capabilities: configure motor boards, comboboxes for some motor properties, add piezo motor buttons
+1. (S) Track strange motor end switch changes (when motor is not moving)
+
+### Fixes
+1. (S)(FO) Shutter/laser shutter might change state erratically when sending multiple requsts to change shutter state 
+1. (C)(FO) Motors->Add\Remove\Reorder deleting motor might change motor board index for other motors
+
+
+
+
+
 ## 1.112.0 (2021-04-02)(beta)
 
 ### Fixes
