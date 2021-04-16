@@ -18,6 +18,13 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.115.0 (2021-04-16)(beta)
+
+### Fixes
+1. (C)(FO) Closing v1.114.0 update notice window closes application
+1. (S) Eth motor board firmware update to 5.2.2, bootloader to 4.14.0
+
+
 ## 1.114.0 (2021-04-15)(beta)
 
 ### Changed behaviours
