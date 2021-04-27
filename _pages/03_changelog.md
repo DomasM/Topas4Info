@@ -18,6 +18,29 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+
+## 1.116.0 (2021-04-27)(beta)
+
+### New Feautures
+1. (C) Add Eth motor board configuration and debug too### New Feautures
+1. (C) Add Eth motor board configuration and debug tool
+
+### Fixes
+1. Fix integrated power meters with wavelength calibration math
+1. (S)(FN) Motor reset always return correct difference between expected and actual steps till switch, not just for subsequent resets from Testing Workbench
+1. (C)(FO) If motor settings pop-up is opened in via right click on motor control, it is impossible to enter 'i' and 'k' letters in any textboxes 
+1. (S) Eth motor board firmware update to 5.2.2, bootloader to 4.14.0
+1. (S) Further tweaks to laser output control when used together with OPA shutter
+l
+
+### Fixes
+1. Fix integrated power meters with wavelength calibration math
+1. (S)(FN) Motor reset always return correct difference between expected and actual steps till switch, not just for subsequent resets from Testing Workbench
+1. (C)(FO) If motor settings pop-up is opened in via right click on motor control, it is impossible to enter 'i' and 'k' letters in any textboxes 
+1. (S) Eth motor board firmware update to 5.2.2, bootloader to 4.14.0
+1. (S) Further tweaks to laser output control when used together with OPA shutter
+
+
 ## 1.115.0 (2021-04-16)(beta)
 
 ### Fixes
