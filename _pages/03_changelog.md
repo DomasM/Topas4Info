@@ -19,6 +19,13 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.117.0 (2021-04-29)(beta)
+
+
+### Fixes
+1. New bootloader for Eth motor board (4.16.0) - fix IP address saved in memory not honored by bootloader, reverts to DIP switches
+1. (C)(FN) Eth motor board configuration and debug tool correctly handles board in bootloader mode
+
 ## 1.116.0 (2021-04-27)(beta)
 
 ### New Feautures
