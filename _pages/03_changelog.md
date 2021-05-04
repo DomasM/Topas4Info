@@ -18,6 +18,15 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.118.0 (2021-05-04)(beta)
+
+### Fixes
+1. (C)(FO) Can't save device configuration to zip file and access some other functions if device has hardware failure  (since v1.99.0)
+1. (S)(FO) Laser location REST method might never return in some circumstances - laser location in WinTopas4 shows no lasers
+
+### Changed behaviours
+1. (C) Changed 'Hardware failure' to "Connection to device lost" in some places. Tentative
+
 
 ## 1.117.0 (2021-04-29)(beta)
 
