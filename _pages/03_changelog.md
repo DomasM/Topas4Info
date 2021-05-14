@@ -18,6 +18,11 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.118.1 (2021-05-14)(beta)
+
+### Fixes
+1. (FO) No warnings for trailing and leading whitespaces in optical and separation configuration interaction names.
+
 ## 1.118.0 (2021-05-04)(beta)
 
 ### Fixes
