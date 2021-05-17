@@ -18,6 +18,13 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.118.4 (2021-05-17)(beta)
+
+### Fixes
+
+1.(C) Incease IGeneralService client timeout to 10 seconds because save device config as zip file timeouts sometimes (temporary fix)
+1.(S) Update dependencies to solve issues with HtmlAgilityPack mismatch
+
 ## 1.118.1 (2021-05-14)(beta)
 
 ### Fixes
