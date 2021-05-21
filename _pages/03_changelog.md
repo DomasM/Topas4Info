@@ -18,7 +18,7 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
-## 1.118.4 (2021-05-17)(beta)
+## 1.118.4 (2021-05-17)(beta), (2021-05-21)(public)
 
 ### Fixes
 
