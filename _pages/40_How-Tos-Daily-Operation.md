@@ -3,13 +3,16 @@ layout: page
 title: Daily Operation How-Tos
 permalink: /How-Tos/Daily-Operation/
 nolink: true
+video: true
 ---
+
 
 ### <a name="Vid001"></a>Topas4 Introduction
 <button class="btn" data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid001">
     Copy address to this how-to
 </button>
-<video  controls="controls">
+
+<video controls class="video-js vjs-16-9" id="Introduction" data-setup="{}">
 <source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/Introduction.mp4" type="video/mp4" />
 </video>
 
@@ -17,8 +20,6 @@ nolink: true
 <button class="btn" data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002">
     Copy address to this how-to
 </button>
-<video  controls="controls">
+<video  controls class="video-js vjs-16-9" id="UsingInteractions" data-setup="{}">
 <source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/UsingInteractions.mp4" type="video/mp4" />
 </video>
-
-

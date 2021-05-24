@@ -10,24 +10,28 @@ nolink: true
 <button class="btn" data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid006">
     Copy address to this how-to
 </button>
-<video  controls="controls">
-<source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/BackupAndRestore.mp4" type="video/mp4" />
+
+<video controls class="video-js vjs-16-9" id="BackupAndRestore" data-setup="{}">
+<source type="video/mp4" src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/BackupAndRestore.mp4" />
+Your browser does not support the video tag.
 </video>
 
-### <a name="Vid002"></a>Control multiple devices, manage devices 
+
+### <a name="Vid002"></a>Control multiple devices, manage devices
 <button class="btn" data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002">
     Copy address to this how-to
 </button>
-<video  controls="controls">
-<source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/DeviceManagement.mp4" type="video/mp4" />
+<video controls class="video-js vjs-16-9" id="DeviceManagement" data-setup="{}">
+<source type="video/mp4" src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/DeviceManagement.mp4" />
 </video>
+
 
 
 ### <a name="Vid004"></a>Laser control from WinTopas4
 <button class="btn" data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid004">
     Copy address to this how-to
 </button>
-<video  controls="controls">
+<video controls class="video-js vjs-16-9" id="LaserControl" data-setup="{}">
 <source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/LaserControl.mp4" type="video/mp4" />
 </video>
 
@@ -43,11 +47,6 @@ nolink: true
 <button class="btn" data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid005">
     Copy address to this how-to
 </button>
-<video  controls="controls">
+<video controls class="video-js vjs-16-9" id="SavedMotorPositions" data-setup="{}">
 <source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/HowToAddNewSavedMotorPositonsGroup.mp4" type="video/mp4" />
 </video>
-
-
-
-
-

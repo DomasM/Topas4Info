@@ -27,7 +27,7 @@ permalink: /Migrate-From-WinTopas3/
 ![05](https://lightconupdater.blob.core.windows.net/topas4infopage/Images/Migrate-From-WinTopas3/05.png)
 
 **Smooth wavelength scanner: scan selected wavelength range to achieve quasi-broadband spectrum**
-<video  controls="controls">
+<video  controls class="video-js vjs-16-9" id="SmoothScanner" data-setup="{}">
 <source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/SmoothScannerQuickDemo.mp4" type="video/mp4" />
 </video>
 
@@ -38,7 +38,7 @@ permalink: /Migrate-From-WinTopas3/
 1. Forbidden motor position ranges increase user safety and lower risk of accidental device damage (need to be configured after migration)
 1. Smart integrated device configuration backups every 15 minutes
 1. Extensive calibration sanity checks help to avoid common mistakes when creating/modifying interactions
-1. All upcoming features will be available only in WinTopas4 
+1. All upcoming features will be available only in WinTopas4
 
 
 
@@ -57,12 +57,12 @@ permalink: /Migrate-From-WinTopas3/
 
 ### Case A. Installation on the same PC as WinTopas3 is currently running
 **Installation is non-intrusive, meaning that WinTopas3 will be able to function as earlier when WinTopas4 application is closed.**
- 
+
 
 
 1. [Install WinTopas4 using default settings](https://lightconupdater.blob.core.windows.net/installers/WinTopas4-setup.exe)
 1. Close WinTopas3 application if running
-1. Launch WinTopas4 using icon on desktop 
+1. Launch WinTopas4 using icon on desktop
 1. Click 'Tools>Access Level' and enter the password for advanced user or engineer
 1. Click 'Tools>Topas3>Convert Topas3 configuration'
 1. Select path to the WinTopas3 configuration .ini file from the combo box, click 'Convert', click 'Launch server'.
@@ -79,7 +79,7 @@ permalink: /Migrate-From-WinTopas3/
 
 ### Case B. Installation on another PC
 1. [Install WinTopas4 using default settings](https://lightconupdater.blob.core.windows.net/installers/WinTopas4-setup.exe)
-1. Get .ini and .crv files for the device that you want to use from the PC where WinTopas3 is currently running. 
+1. Get .ini and .crv files for the device that you want to use from the PC where WinTopas3 is currently running.
 1. Connect Topas USB cable to the new PC.
 1. Follow the steps 3-9 as in Case A. You'll have to browse to the .ini files yourself in step 5 instead of selecting them from combo box.
 
