@@ -12,18 +12,19 @@ nolink: true
 </button>
 
 <div class="row">
-  <button class="btn" onclick="goToSecond('CalibrationOverview',18)"
+Jump to and copy:
+  <button class="btn jump-to" onclick="goToSecond('CalibrationOverview',18)"
   data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid010?name=CalibrationOverview&time=18">
   Access level
   </button>
 
-  <button class="btn" onclick="goToSecond('CalibrationOverview',39)"
+  <button class="btn jump-to" onclick="goToSecond('CalibrationOverview',39)"
   data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid010?name=CalibrationOverview&time=39">
   Calibration windows
   </button>
 </div>
 
-<video  controls class="video-js vjs-16-9" id="CalibrationOverview">
+<video  controlsList="nodownload" controls class="video-js vjs-16-9" id="CalibrationOverview">
 </video>
 
 
@@ -34,18 +35,19 @@ nolink: true
 </button>
 
 <div class="row">
-  <button class="btn" onclick="goToSecond('CalibrationTuning',16)"
+Jump to and copy:
+  <button class="btn jump-to" onclick="goToSecond('CalibrationTuning',16)"
   data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid001?name=CalibrationTuning&time=16">
   Tuning and keyboard shortcuts
   </button>
 
-  <button class="btn" onclick="goToSecond('CalibrationTuning',112)"
+  <button class="btn jump-to" onclick="goToSecond('CalibrationTuning',112)"
   data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid001?name=CalibrationTuning&time=112">
   Curve offset
   </button>
 </div>
 
-<video controls class="video-js vjs-16-9" id="CalibrationTuning">
+<video controls controlsList="nodownload" class="video-js vjs-16-9" id="CalibrationTuning">
 </video>
 
 
@@ -55,29 +57,30 @@ nolink: true
 </button>
 
 <div class="row">
-  <button class="btn" onclick="goToSecond('CalibrationModifications',15)"
+Jump to and copy:
+  <button class="btn jump-to" onclick="goToSecond('CalibrationModifications',15)"
   data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002?name=CalibrationModifications&time=15">
   Wavelength correction
   </button>
 
-  <button class="btn" onclick="goToSecond('CalibrationModifications',58)"
+  <button class="btn jump-to" onclick="goToSecond('CalibrationModifications',58)"
   data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002?name=CalibrationModifications&time=58">
   Respacing the points
   </button>
 
-  <button class="btn" onclick="goToSecond('CalibrationModifications',82)"
+  <button class="btn jump-to" onclick="goToSecond('CalibrationModifications',82)"
   data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002?name=CalibrationModifications&time=82">
   Extending range
   </button>
 
-  <button class="btn" onclick="goToSecond('CalibrationModifications',130)"
+  <button class="btn jump-to" onclick="goToSecond('CalibrationModifications',130)"
   data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002?name=CalibrationModifications&time=130">
   Change pump wl and regenerate idler
   </button>
 </div>
 
 
-<video controls class="video-js vjs-16-9" id="CalibrationModifications">
+<video controls controlsList="nodownload" class="video-js vjs-16-9" id="CalibrationModifications">
 </video>
 
 
@@ -88,24 +91,25 @@ nolink: true
 </button>
 
 <div class="row">
-  <button class="btn" onclick="goToSecond('NamedMotorPositions',18)"
+Jump to and copy:
+  <button class="btn jump-to" onclick="goToSecond('NamedMotorPositions',18)"
   data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid005?name=NamedMotorPositions&time=18">
   Modify named positions
   </button>
 
-  <button class="btn" onclick="goToSecond('NamedMotorPositions',60)"
+  <button class="btn jump-to" onclick="goToSecond('NamedMotorPositions',60)"
   data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid005?name=NamedMotorPositions&time=60">
   Assign to calibration
   </button>
 
-  <button class="btn" onclick="goToSecond('NamedMotorPositions',100)"
+  <button class="btn jump-to" onclick="goToSecond('NamedMotorPositions',100)"
   data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid005?name=NamedMotorPositions&time=100">
   Separation configuration
   </button>
 </div>
 
 
-<video controls class="video-js vjs-16-9" id="NamedMotorPositions">
+<video controls controlsList="nodownload" class="video-js vjs-16-9" id="NamedMotorPositions">
 </video>
 
 
@@ -130,8 +134,10 @@ function InitializePlayer(link) {
 
 links.forEach(link => InitializePlayer(link));
 
+if (location.hash != ""){
+try {
 
-if (findGetParameter("name") !="" && findGetParameter("time")!=""){
+if (findGetParameter("name") != "" && findGetParameter("time") != ""){
   goToSecond(findGetParameter("name"),findGetParameter("time"));
 }
 
@@ -139,13 +145,16 @@ var myHash = window.location.hash.split("?")[0];
 if (myHash != ""){
   scrollTo(myHash);
 }
+} catch {}
+}
+
 
 function scrollTo(hash) {
     location.hash =hash;
 }
 
 function findGetParameter(parameterName) {
-    var result = null,
+    var result = "",
         tmp = [];
 
     window.location.hash
@@ -155,6 +164,7 @@ function findGetParameter(parameterName) {
           tmp = item.split("=");          
           if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
         });
+
     return result;
 }
 

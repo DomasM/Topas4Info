@@ -9,18 +9,13 @@ video: true
 
 ### <a name="Vid001"></a>Topas4 Introduction
 
-<div class="row">
+
 <button class="btn" data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid001">
       Copy address to this how-to
 </button>
-</div>
 
 
-
-
-
-
-<video controls class="video-js vjs-16-9"  id="Introduction"></video>
+<video controls class="video-js vjs-16-9" controlsList="nodownload"  id="Introduction"></video>
 
 
 ### <a name="Vid002"></a>Select interaction(s) to use and create interaction groups
@@ -30,35 +25,35 @@ video: true
 </button>
 
 <div class="row">
-
-  <button class="btn" onclick="goToSecond('UsingInteractions',15)"
+ Jump to and copy: 
+  <button class="btn jump-to" onclick="goToSecond('UsingInteractions',15)"
   data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002?name=UsingInteractions&time=15">
   Selecting single
   </button>
 
-  <button class="btn" onclick="goToSecond('UsingInteractions',34)"
+  <button class="btn jump-to" onclick="goToSecond('UsingInteractions',34)"
   data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002?name=UsingInteractions&time=34">
   Selecting multiple
   </button>
 
-  <button class="btn" onclick="goToSecond('UsingInteractions',47)"
+  <button class="btn jump-to" onclick="goToSecond('UsingInteractions',47)"
   data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002?name=UsingInteractions&time=47">
   Priorities
   </button>
 
-  <button class="btn" onclick="goToSecond('UsingInteractions',68)"
+  <button class="btn jump-to" onclick="goToSecond('UsingInteractions',68)"
   data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002?name=UsingInteractions&time=68">
   Grouping
   </button>
 
-  <button class="btn" onclick="goToSecond('UsingInteractions',85)"
+  <button class="btn jump-to" onclick="goToSecond('UsingInteractions',85)"
   data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002?name=UsingInteractions&time=85">
   Message window
   </button>
 </div>
 
 
-<video  controls class="video-js vjs-16-9" id="UsingInteractions">
+<video  controls controlsList="nodownload" class="video-js vjs-16-9" id="UsingInteractions">
 </video>
 
 
@@ -84,8 +79,10 @@ function InitializePlayer(link) {
 links.forEach(link => InitializePlayer(link));
 
 
+if (location.hash != ""){
+try {
 
-if (findGetParameter("name") !="" && findGetParameter("time")!=""){
+if (findGetParameter("name") != "" && findGetParameter("time") != ""){
   goToSecond(findGetParameter("name"),findGetParameter("time"));
 }
 
@@ -93,13 +90,16 @@ var myHash = window.location.hash.split("?")[0];
 if (myHash != ""){
   scrollTo(myHash);
 }
+} catch {}
+}
+
 
 function scrollTo(hash) {
     location.hash =hash;
 }
 
 function findGetParameter(parameterName) {
-    var result = null,
+    var result = "",
         tmp = [];
 
     window.location.hash
@@ -109,6 +109,7 @@ function findGetParameter(parameterName) {
           tmp = item.split("=");          
           if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
         });
+
     return result;
 }
 
