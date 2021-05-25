@@ -27,8 +27,7 @@ permalink: /Migrate-From-WinTopas3/
 ![05](https://lightconupdater.blob.core.windows.net/topas4infopage/Images/Migrate-From-WinTopas3/05.png)
 
 **Smooth wavelength scanner: scan selected wavelength range to achieve quasi-broadband spectrum**
-<video  controls class="video-js vjs-16-9" id="SmoothScanner" data-setup="{}">
-<source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/SmoothScannerQuickDemo.mp4" type="video/mp4" />
+<video  controls class="video-js vjs-16-9" id="SmoothScanner">
 </video>
 
 **And many other reasons:**
@@ -72,9 +71,9 @@ permalink: /Migrate-From-WinTopas3/
 
 **Video for case A:**
 
-<video  controls="controls">
-<source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/HowToConvertFromTopas3.mp4?sv=2019-12-12&st=2021-05-25T08%3A06%3A21Z&se=2068-05-10T08%3A06%3A00Z&sr=c&sp=rl&sig=erdeW62Gl3KBJ%2Bn6vCwfcwqJKPo%2BHbA2yNnvlmKKzKY%3D" type="video/mp4" />
+<video   controls class="video-js vjs-16-9" id="HowToConvert">
 </video>
+
 
 
 ### Case B. Installation on another PC
@@ -89,8 +88,7 @@ permalink: /Migrate-From-WinTopas3/
 
 You can easily import additional curves from .crv files after conversion. See video below.
 
-<video  controls="controls">
-<source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/HowToImportCalibrationFromWinTopas3CRVFiles.mp4?sv=2019-12-12&st=2021-05-25T08%3A06%3A21Z&se=2068-05-10T08%3A06%3A00Z&sr=c&sp=rl&sig=erdeW62Gl3KBJ%2Bn6vCwfcwqJKPo%2BHbA2yNnvlmKKzKY%3D" type="video/mp4" />
+<video  controls class="video-js vjs-16-9" id="HowToImportWintopas3">
 </video>
 
 **2. Can I quickly return to WinTopas3 if something goes wrong?**
@@ -118,3 +116,24 @@ Yes.
 **7. So where is WinTopas4 installer?**
 
 See the first step of the instructions above.
+
+
+<script>
+var params = "?sv=2019-12-12&st=2021-05-25T08%3A06%3A21Z&se=2068-05-10T08%3A06%3A00Z&sr=c&sp=rl&sig=erdeW62Gl3KBJ%2Bn6vCwfcwqJKPo%2BHbA2yNnvlmKKzKY%3D";
+
+var links = [
+{Name: "HowToConvert", Link: "https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/HowToConvertFromTopas3.mp4"},
+{Name: "SmoothScanner",Link:"https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/SmoothScannerQuickDemo.mp4"},
+{Name: "HowToImportWintopas3",Link:"https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/HowToImportCalibrationFromWinTopas3CRVFiles.mp4"}
+];
+
+function InitializePlayer(link) {  
+  videojs(link.Name).src({
+    type: 'video/mp4',
+    src: link.Link+params
+  });
+}
+
+links.forEach(link => InitializePlayer(link));
+
+</script>
