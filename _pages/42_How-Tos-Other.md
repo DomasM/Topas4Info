@@ -11,6 +11,20 @@ nolink: true
     Copy address to this how-to
 </button>
 
+<div class="row">
+
+  <button class="btn" onclick="goToSecond('BackupAndRestore',12)"
+  data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid006?name=BackupAndRestore&time=12">
+  Automatic Backup
+  </button>
+
+  <button class="btn" onclick="goToSecond('BackupAndRestore',76)"
+  data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid006?name=BackupAndRestore&time=76">
+  Zipped configuration
+  </button>
+
+</div>
+
 <video controls class="video-js vjs-16-9" id="BackupAndRestore">
 </video>
 
@@ -19,6 +33,45 @@ nolink: true
 <button class="btn" data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002">
     Copy address to this how-to
 </button>
+
+<div class="row">
+
+  <button class="btn" onclick="goToSecond('DeviceManagement',8)"
+  data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002?name=DeviceManagement&time=8">
+  Control windows
+  </button>
+
+  <button class="btn" onclick="goToSecond('DeviceManagement',30)"
+  data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002?name=DeviceManagement&time=30">
+  Color / Nickname
+  </button>
+
+  <button class="btn" onclick="goToSecond('DeviceManagement',42)"
+  data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002?name=DeviceManagement&time=42">
+  Multiple devices
+  </button>
+
+  <button class="btn" onclick="goToSecond('DeviceManagement',60)"
+  data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002?name=DeviceManagement&time=60">
+  Mini view
+  </button>
+
+  <button class="btn" onclick="goToSecond('DeviceManagement',83)"
+  data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002?name=DeviceManagement&time=83">
+  Demo device
+  </button>
+
+  <button class="btn" onclick="goToSecond('DeviceManagement',104)"
+  data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002?name=DeviceManagement&time=104">
+  Launch from zipped config
+  </button>
+
+  <button class="btn" onclick="goToSecond('DeviceManagement',128)"
+  data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002?name=DeviceManagement&time=128">
+  SelfHosts manager
+  </button>
+</div>
+
 <video controls class="video-js vjs-16-9" id="DeviceManagement">
 </video>
 
@@ -28,6 +81,36 @@ nolink: true
 <button class="btn" data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid004">
     Copy address to this how-to
 </button>
+
+<div class="row">
+
+  <button class="btn" onclick="goToSecond('LaserControl',14)"
+  data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid004?name=LaserControl&time=14">
+  Enable controls
+  </button>
+
+  <button class="btn" onclick="goToSecond('LaserControl',24)"
+  data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid004?name=LaserControl&time=24">
+  Overview
+  </button>
+
+  <button class="btn" onclick="goToSecond('LaserControl',75)"
+  data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid004?name=LaserControl&time=75">
+  Laser setup
+  </button>
+
+  <button class="btn" onclick="goToSecond('LaserControl',97)"
+  data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid004?name=LaserControl&time=97">
+  Assign laser preset
+  </button>
+
+  <button class="btn" onclick="goToSecond('LaserControl',122)"
+  data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid004?name=LaserControl&time=122">
+  Safe shutter switching
+  </button>
+
+</div>
+
 <video controls class="video-js vjs-16-9" id="LaserControl">
 </video>
 
@@ -68,5 +151,38 @@ function InitializePlayer(link) {
 }
 
 links.forEach(link => InitializePlayer(link));
+
+
+
+if (findGetParameter("name") !="" && findGetParameter("time")!=""){
+  goToSecond(findGetParameter("name"),findGetParameter("time"));
+}
+
+var myHash = window.location.hash.split("?")[0];
+if (myHash != ""){
+  scrollTo(myHash);
+}
+
+function scrollTo(hash) {
+    location.hash =hash;
+}
+
+function findGetParameter(parameterName) {
+    var result = null,
+        tmp = [];
+
+    window.location.hash
+        .split("?")[1]
+        .split("&")
+        .forEach(function (item) {
+          tmp = item.split("=");          
+          if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+        });
+    return result;
+}
+
+function goToSecond(name,time){
+  videojs(name).currentTime(time);
+}
 
 </script>
