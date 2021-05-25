@@ -12,7 +12,7 @@ nolink: true
 </button>
 
 <video controls class="video-js vjs-16-9" id="BackupAndRestore" data-setup="{}">
-<source type="video/mp4" src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/BackupAndRestore.mp4" />
+<source type="video/mp4" src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/BackupAndRestore.mp4?sv=2019-12-12&st=2021-05-25T08%3A06%3A21Z&se=2068-05-10T08%3A06%3A00Z&sr=c&sp=rl&sig=erdeW62Gl3KBJ%2Bn6vCwfcwqJKPo%2BHbA2yNnvlmKKzKY%3D"/>
 Your browser does not support the video tag.
 </video>
 
@@ -22,7 +22,7 @@ Your browser does not support the video tag.
     Copy address to this how-to
 </button>
 <video controls class="video-js vjs-16-9" id="DeviceManagement" data-setup="{}">
-<source type="video/mp4" src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/DeviceManagement.mp4" />
+<source type="video/mp4" src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/DeviceManagement.mp4?sv=2019-12-12&st=2021-05-25T08%3A06%3A21Z&se=2068-05-10T08%3A06%3A00Z&sr=c&sp=rl&sig=erdeW62Gl3KBJ%2Bn6vCwfcwqJKPo%2BHbA2yNnvlmKKzKY%3D" />
 </video>
 
 
@@ -32,7 +32,7 @@ Your browser does not support the video tag.
     Copy address to this how-to
 </button>
 <video controls class="video-js vjs-16-9" id="LaserControl" data-setup="{}">
-<source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/LaserControl.mp4" type="video/mp4" />
+<source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/LaserControl.mp4?sv=2019-12-12&st=2021-05-25T08%3A06%3A21Z&se=2068-05-10T08%3A06%3A00Z&sr=c&sp=rl&sig=erdeW62Gl3KBJ%2Bn6vCwfcwqJKPo%2BHbA2yNnvlmKKzKY%3D" type="video/mp4" />
 </video>
 
  In case you want to add Pharos laser which is connected to another PC than Topas4Server is running
@@ -48,5 +48,5 @@ Your browser does not support the video tag.
     Copy address to this how-to
 </button>
 <video controls class="video-js vjs-16-9" id="SavedMotorPositions" data-setup="{}">
-<source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/HowToAddNewSavedMotorPositonsGroup.mp4" type="video/mp4" />
+<source src="https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/HowToAddNewSavedMotorPositonsGroup.mp4?sv=2019-12-12&st=2021-05-25T08%3A06%3A21Z&se=2068-05-10T08%3A06%3A00Z&sr=c&sp=rl&sig=erdeW62Gl3KBJ%2Bn6vCwfcwqJKPo%2BHbA2yNnvlmKKzKY%3D" type="video/mp4" />
 </video>
