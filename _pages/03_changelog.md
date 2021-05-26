@@ -18,6 +18,18 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.119.0 (2021-05-26)(beta)
+
+### Fixes
+1.(S)(FO) Strange shutter behaviour when connected to Eth motor board and setting wavelength while shutter is open
+
+### New Feautures
+1.(C) Tool to setup new Eth motor boards for use with WinTopas4, extended motor boards address space from 256 to about 50k adresses
+2. Implicit Eth motor board naming in Motorjs.json ('auto') 
+2.(S) New firmware for Eth motor board (5.5.0)
+
+
+
 ## 1.118.4 (2021-05-17)(beta), (2021-05-21)(public)
 
 ### Fixes
