@@ -15,7 +15,8 @@ video: true
 </button>
 
 
-<video controls class="video-js vjs-16-9" controlsList="nodownload"  id="Introduction"></video>
+<video class="video-js vjs-16-9 vjs-default-skin"  id="Introduction" data-setup='{}'>
+</video>
 
 
 ### <a name="Vid002"></a>Select interaction(s) to use and create interaction groups
@@ -25,7 +26,7 @@ video: true
 </button>
 
 <div class="row">
- Jump to and copy: 
+ Jump to and copy:
   <button class="btn jump-to" onclick="goToSecond('UsingInteractions',15)"
   data-clipboard-text="{{site.fullUrl}}{{page.url}}#Vid002?name=UsingInteractions&time=15">
   Selecting single
@@ -63,21 +64,36 @@ var params = "?sv=2019-12-12&st=2021-05-25T08%3A06%3A21Z&se=2068-05-10T08%3A06%3
 
 var links = [
     { Name: "Introduction", Link: "https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/Introduction.mp4"},
-    { Name: "UsingInteractions", Link: "https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/UsingInteractions.mp4"},    
+    { Name: "UsingInteractions", Link: "https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/UsingInteractions.mp4"}
 ];
 
 
-function InitializePlayer(link) {  
-  videojs(link.Name).src({
+function InitializePlayer(link) {
+
+var myVid =   videojs(link.Name);
+myVid.src({
     type: 'video/mp4',
     src: link.Link+params
   });
+
+myVid.controls("true");
+myVid.preload("auto");
 }
 
 
 
 links.forEach(link => InitializePlayer(link));
 
+var noDownload = function() {
+    var videoElem = document.getElementsByTagName("video");
+    for (x in videoElem) {
+  	    if (isNaN(x) == true) {
+            continue;
+        }        
+  	    videoElem[x].setAttribute("controlsList", "nodownload");
+    }
+}
+noDownload();
 
 if (location.hash != ""){
 try {
@@ -92,6 +108,7 @@ if (myHash != ""){
 }
 } catch {}
 }
+
 
 
 function scrollTo(hash) {
