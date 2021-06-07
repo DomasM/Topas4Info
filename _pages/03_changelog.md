@@ -18,6 +18,14 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.119.3 (2021-06-07)(beta)
+
+
+### Fixes
+1.(S)(FO) Motor reset does not work if zero offset (recalculated to microsteps) is bigger than max position
+1.(C)(FO) Tools>Manage Eth motor boards>Configure and debug does nothing if board name is empty
+
+
 ## 1.119.0 (2021-05-26)(beta)
 
 ### Fixes
