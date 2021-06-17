@@ -18,6 +18,13 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+
+
+## 1.120.0 (2021-06-17)(beta)
+
+### New Feautures
+1.(C) Add DFX interaction.  It works the same way as DFG but with IDL instead of SIG.
+
 ## 1.119.3 (2021-06-07)(beta)
 
 
