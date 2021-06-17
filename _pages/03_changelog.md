@@ -25,7 +25,7 @@ permalink: /changelog/
 ### New Feautures
 1.(C) Add DFX interaction.  It works the same way as DFG but with IDL instead of SIG.
 
-## 1.119.3 (2021-06-07)(beta)
+## 1.119.3 (2021-06-07)(beta), (2021-06-17)(beta)
 
 
 ### Fixes
