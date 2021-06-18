@@ -19,6 +19,9 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.120.1 (2021-06-18)
+### New Feautures
+1.(S) Track installed .Net Framework version
 
 ## 1.120.0 (2021-06-17)(beta)
 
