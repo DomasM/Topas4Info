@@ -18,6 +18,11 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.121.0 (2021-07-01)(beta)
+### Changed behaviours
+
+1.(S) Warn user if Eth motor boards with addreses 10.1.1.0-2 are used and device is not whitelisted
+
 
 ## 1.120.1 (2021-06-18)
 ### New Feautures
