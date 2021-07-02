@@ -18,6 +18,16 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+
+
+## 1.122.0 (2021-07-02)(beta)
+### Fixes
+1.(S)(FO) Eth motor board communication tweaks (UDP ports exhaustion)
+### New Feautures
+1.(S) Backup device config zip to cloud
+
+
+
 ## 1.121.0 (2021-07-01)(beta)
 ### Changed behaviours
 
