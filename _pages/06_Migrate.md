@@ -13,7 +13,7 @@ permalink: /Migrate-From-WinTopas3/
 ![02](https://lightconupdater.blob.core.windows.net/topas4infopage/Images/Migrate-From-WinTopas3/02.png)
 
 **You can even control Topas/Orpheus from your smartphone**
-<img height="600" src="https://lightconupdater.blob.core.windows.net/topas4infopage/Images/Migrate-From-WinTopas3/03.png" alt="">
+<img  src="https://lightconupdater.blob.core.windows.net/topas4infopage/Images/Migrate-From-WinTopas3/03.png" alt="">
 
 
 **Better support for interactions with overlapping wavelength ranges**
