@@ -8,22 +8,18 @@ permalink: /Migrate-From-WinTopas3/
 ## Why upgrade to WinTopas4?
 
 **Access most often used functions quicker and easier!**
-<img src="https://lightconupdater.blob.core.windows.net/topas4infopage/Images/Migrate-From-WinTopas3/01.png" alt="" usemap="#map1494520202657">
-<map id="map1494520202657" name="map1494520202657"><area shape="rect" coords="93.015625,894.015625,777.015625,996.015625" title="" alt="" href="http://domasm.github.io/Topas4Info/How-Tos/#Vid001" target="_blank"></map>
+<img src="https://lightconupdater.blob.core.windows.net/topas4infopage/Images/Migrate-From-WinTopas3/01.png" alt="">
 
-**Control multiple devices from the same window**
 ![02](https://lightconupdater.blob.core.windows.net/topas4infopage/Images/Migrate-From-WinTopas3/02.png)
 
 **You can even control Topas/Orpheus from your smartphone**
-![03](https://lightconupdater.blob.core.windows.net/topas4infopage/Images/Migrate-From-WinTopas3/03.png)
+<img height="600" src="https://lightconupdater.blob.core.windows.net/topas4infopage/Images/Migrate-From-WinTopas3/03.png" alt="">
 
 
 **Better support for interactions with overlapping wavelength ranges**
-<img src="https://lightconupdater.blob.core.windows.net/topas4infopage/Images/Migrate-From-WinTopas3/04.png" alt="" usemap="#map1494523577671">
-<map id="map1494523577671" name="map1494523577671"><area shape="rect" coords="1071.000081046875,981.0000200117188,1924.6667470468751,1172.6666860117189" title="" alt="" href="http://domasm.github.io/Topas4Info/How-Tos/#Vid002" target="_blank"><area shape="rect" coords="1243.000081046875,603.0000200117188,1954.6667470468751,738.6666860117189" title="" alt="" href="http://domasm.github.io/Topas4Info/How-Tos/#Vid006" target="_blank"></map>
+<img src="https://lightconupdater.blob.core.windows.net/topas4infopage/Images/Migrate-From-WinTopas3/04.png" alt="">
 
 
-**Easier and faster calibration modification**
 ![05](https://lightconupdater.blob.core.windows.net/topas4infopage/Images/Migrate-From-WinTopas3/05.png)
 
 **Smooth wavelength scanner: scan selected wavelength range to achieve quasi-broadband spectrum**
@@ -49,7 +45,7 @@ permalink: /Migrate-From-WinTopas3/
 1. Administrator rights (for installation and first launch only)
 1. Topas control board with USB connection (LPT board is not supported)
 1. Topas/Orpheus device manufactured or serviced in 2011 or later ([contact Light Conversion for earlier devices](mailto:support@lightcon.com), as there might be conversion problems)
-1. It is recommended to use Topas4 software on the PC with internet connection, as it's in active development right now, with many fixes/improvements released every week (updates are automatic and non-intrusive)
+1. It is recommended to use Topas4 software on the PC with internet connection for best user experience
 
 **Time required ~ 2 minutes**
 
