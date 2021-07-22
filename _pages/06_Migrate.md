@@ -62,7 +62,7 @@ permalink: /Migrate-From-WinTopas3/
 1. Click 'Tools>Topas3>Convert Topas3 configuration'
 1. Select path to the WinTopas3 configuration .ini file from the combo box, click 'Convert', click 'Launch server'.
 1. Click yes when Windows UAC prompts for administrator rights. Allow all applications through firewall.
-1. If you have multiple devices connected to the same PC, repeat steps 6-7 for each ini file. **Make sure to use different Topas3 API slot for each device (enter value before launching server).**
+1. If you have multiple devices connected to the same PC, repeat steps 6-7 for each ini file.
 1. Enjoy! All motor settings and calibration curves have been imported!
 
 **Video for case A:**
