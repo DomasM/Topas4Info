@@ -118,9 +118,9 @@ See the first step of the instructions above.
 var params = "?sv=2019-12-12&st=2021-05-25T08%3A06%3A21Z&se=2068-05-10T08%3A06%3A00Z&sr=c&sp=rl&sig=erdeW62Gl3KBJ%2Bn6vCwfcwqJKPo%2BHbA2yNnvlmKKzKY%3D";
 
 var links = [
-{Name: "HowToConvert", Link: "https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/HowToConvertFromTopas3.mp4"},
+{Name: "HowToConvert", Link: "https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/MigrateWT3.mp4"},
 {Name: "SmoothScanner",Link:"https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/SmoothScannerQuickDemo.mp4"},
-{Name: "HowToImportWintopas3",Link:"https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/HowToImportCalibrationFromWinTopas3CRVFiles.mp4"}
+{Name: "HowToImportWintopas3",Link:"https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/ImportingWT3Curve.mp4"}
 ];
 
 function InitializePlayer(link) {  
