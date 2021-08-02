@@ -19,8 +19,12 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.124.0 (2021-07-02)(beta)
 
-## 1.122.0 (2021-07-02)(beta)
+### Fixes
+1.(S)(FO) Topas4Server enters infinite loop on startup if Eth motor board motor is in 'ThermalShutdown'' state and can't leave 'Busy' state 
+
+## 1.122.0 (2021-07-02)(beta),  (2021-07-09)(public)
 ### Fixes
 1.(S)(FO) Eth motor board communication tweaks (UDP ports exhaustion)
 ### New Feautures
