@@ -19,6 +19,12 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.125.0 (2021-07-02)(beta)
+
+### Fixes
+1.(S)(FO) Topas4Server might not exit if launched multiple times and update is ready
+
+
 ## 1.124.0 (2021-07-02)(beta)
 
 ### Fixes
