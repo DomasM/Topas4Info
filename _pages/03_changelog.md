@@ -24,6 +24,9 @@ permalink: /changelog/
 ### Fixes
 1.(S)(FO) Topas4Server enters infinite loop on startup if Eth motor board motor is in 'ThermalShutdown'' state and can't leave 'Busy' state 
 
+### New Feautures
+1.(C) Add Cronus-3P demo configuration to Tools>Launch New Demo Device menu
+
 ## 1.122.0 (2021-07-02)(beta),  (2021-07-09)(public)
 ### Fixes
 1.(S)(FO) Eth motor board communication tweaks (UDP ports exhaustion)
