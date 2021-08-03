@@ -19,13 +19,18 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
-## 1.125.0 (2021-07-02)(beta)
+## 1.125.1 (2021-08-03)(beta)
+
+### Fixes
+1.(S)(FO) Topas4Server will likely fail to monitor ethernet interface changes
+
+## 1.125.0 (2021-08-02)(beta)
 
 ### Fixes
 1.(S)(FO) Topas4Server might not exit if launched multiple times and update is ready
 
 
-## 1.124.0 (2021-07-02)(beta)
+## 1.124.0 (2021-08-02)(beta)
 
 ### Fixes
 1.(S)(FO) Topas4Server enters infinite loop on startup if Eth motor board motor is in 'ThermalShutdown'' state and can't leave 'Busy' state 
