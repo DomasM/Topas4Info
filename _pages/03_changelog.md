@@ -19,6 +19,10 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+## 1.127.0 (2021-08-09)(beta)
+
+### New Feautures
+1.(S) Try to disable 'Idle Power Saving' for Usb<>Eth adapters that are used for communication with Eth motor boards
 
 ## 1.126.0 (2021-08-09)(beta)
 
