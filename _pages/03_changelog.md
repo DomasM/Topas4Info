@@ -19,6 +19,16 @@ permalink: /changelog/
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
 
+
+## 1.126.0 (2021-08-09)(beta)
+
+### Fixes
+1.(S) Tweak temperature and humidity and sensors readout to avoid unstable operation in certain situations
+
+### Changed behaviours
+
+1.(S) Block usage of Eth motor boards with addreses 10.1.1.0-2 if device is not whitelisted (Warning since 1.121.0)
+
 ## 1.125.1 (2021-08-03)(beta)
 
 ### Fixes
