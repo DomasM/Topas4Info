@@ -18,6 +18,13 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.128.0 (2021-08-23)(beta)
+
+### Fixes
+1.(S) Fix pump laser preset check for shutter might be ignored
+
+### New Feautures
+1.(S) Add 'CloseOnPumpMismatch' option to shutter configuration
 
 ## 1.127.0 (2021-08-09)(beta)
 
