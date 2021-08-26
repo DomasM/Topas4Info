@@ -18,6 +18,20 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.128.2 (2021-08-26)(beta)
+
+### Changed behaviours
+
+1.(C) Add 'Help' button to top bar, it leads to How-Tos videos
+1.(S) Temperature/Humidity sensors connected to Eth motor boards are now reseted on server startup and board debug tool launch
+1.(S) List of devices that are allowed to use 10.1.1.0-2 Eth motor boards shortened
+
+
+
+## 1.128.1 (2021-08-24)(beta)
+
+1.(C) Fix Cronus-3P demo configuration file is not included
+
 ## 1.128.0 (2021-08-23)(beta)
 
 ### Fixes
