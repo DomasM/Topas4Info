@@ -18,6 +18,16 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.128.3 (2021-08-27)(beta)
+
+### Fixes
+1.(C) Fix false positive 'Simplify' option for motor position curve
+
+
+### Changed behaviours
+1.(C) Change forbidden ranges generation logic for optical curves that contain positions equal to named motor positions
+
+
 ## 1.128.2 (2021-08-26)(beta)
 
 ### Changed behaviours
