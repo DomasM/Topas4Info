@@ -18,6 +18,12 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.128.4 (2021-08-31)(beta)
+
+### Fixes
+1.(S) Hotfix for 1.128.2  - do not send 'RESET_TEMP_AND_HUMIDITY' commands to Eth motor boards with 6 motors 
+
+
 ## 1.128.3 (2021-08-27)(beta)
 
 ### Fixes
