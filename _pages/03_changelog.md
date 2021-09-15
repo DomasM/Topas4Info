@@ -18,11 +18,20 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
-## 1.128.4 (2021-08-31)(beta)
+## 1.128.5 (2021-09-15)(beta)
+
+### Changed behaviours
+1.(S) Increase max homing duration for PI delay lines to 10 seconds (was 5)
+
+
+
+## 1.128.4 (2021-08-31)(beta), (2021-09-13)(public)
 
 ### Fixes
 1.(S) Hotfix for 1.128.2  - do not send 'RESET_TEMP_AND_HUMIDITY' commands to Eth motor boards with 6 motors 
 
+### New Feautures
+1.(S) Track interlock flag events for Eth motor bord with main shutter
 
 ## 1.128.3 (2021-08-27)(beta)
 
