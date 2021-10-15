@@ -18,34 +18,41 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
-## 1.128.5 (2021-09-15)(beta)
+## 1.129.0 (2021-10-15)(beta)
 
-### Changed behaviours
+### New
+1.(S) Add software shutter sharing between devices for Twins
+
+
+
+## 1.128.5 (2021-09-15)(beta), (2021-10-07)(public)
+
+### Changed
 1.(S) Increase max homing duration for PI delay lines to 10 seconds (was 5)
 
 
 
 ## 1.128.4 (2021-08-31)(beta), (2021-09-13)(public)
 
-### Fixes
+### Fixed
 1.(S) Hotfix for 1.128.2  - do not send 'RESET_TEMP_AND_HUMIDITY' commands to Eth motor boards with 6 motors 
 
-### New Feautures
+### New
 1.(S) Track interlock flag events for Eth motor bord with main shutter
 
 ## 1.128.3 (2021-08-27)(beta)
 
-### Fixes
+### Fixed
 1.(C) Fix false positive 'Simplify' option for motor position curve
 
 
-### Changed behaviours
+### Changed
 1.(C) Change forbidden ranges generation logic for optical curves that contain positions equal to named motor positions
 
 
 ## 1.128.2 (2021-08-26)(beta)
 
-### Changed behaviours
+### Changed
 
 1.(C) Add 'Help' button to top bar, it leads to How-Tos videos
 1.(S) Temperature/Humidity sensors connected to Eth motor boards are now reseted on server startup and board debug tool launch
