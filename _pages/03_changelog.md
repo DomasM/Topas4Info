@@ -18,6 +18,38 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+
+## 1.132.0 (2021-11-08)(beta)
+
+
+### Changed
+1. Prefer explicit addresses for Eth motor boards in device configuration instead of 'auto' 
+1.(C) Tweak forbidden ranges generation for discontinous motor calibration curves
+
+### Fixed
+1. (S) If TCP ports required to expose REST etc services are taken on startup, try alternative ports at +200, +400 etc
+1. (S) Check for failed Eth motor board drivers on statup (e.g. after electrical short circuit)
+
+
+### New
+
+1.(C) Add 'Shift Selection' button to motor position in calibration
+
+## 1.131.0 (2021-10-26)(beta),  (2021-11-05)(public)
+
+### Fixed
+1.(C) Secondary shutters are displayed incorrectly if they are closed for safety reasons
+1.(C) Warn user if they try to set output for LightComposer device using WinTopas4
+1.(C) Can't upload firmware for Eth motor board via Tools>Manage Eth motor boards if kleja is unreachable
+
+
+### New
+
+1.(C) Add interlock status to Tools>Manage Eth motor boards
+1.(C) Prevent 'Reset in progress' message from dissapearing for a brief period of time when each motor ends reseting
+
+
+
 ## 1.129.0 (2021-10-15)(beta)
 
 ### New
