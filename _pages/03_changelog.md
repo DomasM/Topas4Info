@@ -18,6 +18,14 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.133.0 (2021-11-10)(beta)
+
+### New
+1. Add output presets. Currently set wavelength with motor adjustments can be saved and applied later on
+
+### Changed
+1. (S) After setting wavelength, wavelength is set unless more than four motors have been moved from their places (was two)
+
 
 ## 1.132.0 (2021-11-08)(beta)
 
