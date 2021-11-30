@@ -15,7 +15,7 @@ nolink: true
 
 
 <script>
-var params = "?sv=2019-12-12&st=2021-11-30T13%3A29%3A50Z&se=2047-10-01T12%3A29%3A00Z&sr=c&sp=rl&sig=PXP8Z5IQdevNxwEe8TtsY4jibnf5%2FyetP5sjyxYo8Y4%3D";
+var params = "?sv=2020-08-04&st=2021-11-30T13%3A29%3A50Z&se=2047-10-01T12%3A29%3A00Z&sr=c&sp=rl&sig=PXP8Z5IQdevNxwEe8TtsY4jibnf5%2FyetP5sjyxYo8Y4%3D";
 
 var links = [
     { Name: "CurrentDecreaseFactor", Link: "https://lightconupdater.blob.core.windows.net/topas4infopage/Videos/HowToSetCurrentDecreaseFactor.mp4"},
