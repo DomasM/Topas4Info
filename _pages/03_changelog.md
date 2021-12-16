@@ -18,7 +18,45 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
-## 1.133.1 (2021-11-12)(beta)
+## 1.138.0 (2021-12-16)(beta)
+
+
+### Fixed
+1. (S) Changes to Eth motor board startup procedure to avoid motor movement during startup: 'RETURN_FROM_FAILURE' command is no longer sent; BEMF compensation parameters are set only if they do not match current parameters in board memory. 
+
+
+## 1.137.0 (2021-12-16)(beta)
+
+### Fixed
+1. Hotfix for 1.134.0 - invalid USB motor boards drivers were included in installer
+### New
+1. (C) Add 'Return From Failure' button to Eth motor board debug/configuration window
+
+## 1.136.0 (2021-12-16)(beta)
+
+
+### New
+1. Add power lock function
+1. Add temperature sensors
+
+
+## 1.134.0 (2021-12-14)(beta)
+
+### Fixed
+1.(S)(FO) Shutter might be automatically closed at any time if required laser preset is configured due temporary communication problems with laser 
+1.(C) Remove Apple logos
+
+### New
+1.(S) Add 'auto' address patching for all systems with known addresses of Eth motor boards - Topas4Server will change device configuration to contain explicit Eth board address
+
+### Changed
+1. Beta release channel address changed, \\kleja is no longer used 
+1.(C) Forbidden range generation tweaks: default motor positions in optical calibration and raw steps positions in separation configuration are taken into account. There is no need to create named positions in such cases anymore.
+1.(C) Power meter UI tweaks
+
+
+
+## 1.133.1 (2021-11-12)(beta), (2021-12-14)(public)
 
 ### Fixed
 1.(C) Hotfix for 1.132.0 forbiddren ranges generation - 'Generate from calibration' for all motors button works incorrectly.
