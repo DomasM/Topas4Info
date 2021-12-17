@@ -18,6 +18,20 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.139.0 (2021-12-17)(beta)
+
+### New
+1. Add support for Eth motor board digital temperature and humidity sensors in Sensing configuration
+1. Show ambient sensor readings in output settings view
+
+
+### Fixed
+
+1.(FO) Eth motor board digital temperature and humidity sensors are ignored on revised 6-motor boards which support them
+1.(C)(FO) If Signal is set with the wavelength that is equal to Idler wavelength, WinTopas4 grays out Signal in  main view
+
+
+
 ## 1.138.0 (2021-12-16)(beta)
 
 
