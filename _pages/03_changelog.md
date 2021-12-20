@@ -65,15 +65,15 @@ permalink: /changelog/
 
 ### Changed
 1. Beta release channel address changed, \\kleja is no longer used 
-1.(C) Forbidden range generation tweaks: default motor positions in optical calibration and raw steps positions in separation configuration are taken into account. There is no need to create named positions in such cases anymore.
-1.(C) Power meter UI tweaks
+1. (C) Forbidden range generation tweaks: default motor positions in optical calibration and raw steps positions in separation configuration are taken into account. There is no need to create named positions in such cases anymore.
+1. (C) Power meter UI tweaks
 
 
 
 ## 1.133.1 (2021-11-12)(beta), (2021-12-14)(public)
 
 ### Fixed
-1.(C) Hotfix for 1.132.0 forbiddren ranges generation - 'Generate from calibration' for all motors button works incorrectly.
+1. (C) Hotfix for 1.132.0 forbiddren ranges generation - 'Generate from calibration' for all motors button works incorrectly.
 
 
 ## 1.133.0 (2021-11-10)(beta)
