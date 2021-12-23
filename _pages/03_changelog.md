@@ -18,6 +18,18 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.139.2 (2021-12-23)(beta)
+
+
+### Fixed
+
+1.(C) Hotfix for 1.133.0 - recent wavelengths can not be set
+1.(S) Rewrite 'Move motor sometimes' service
+
+### New
+
+1.(S) Add check whether eth interface exists which could be used to communicate with Eth motor board 
+
 ## 1.139.0 (2021-12-17)(beta)
 
 ### New
