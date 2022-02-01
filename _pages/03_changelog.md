@@ -18,7 +18,15 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
-## 1.139.2 (2021-12-23)(beta), (2022-02-01)(public)
+
+## 1.139.4 (2022-01-02)(beta)
+
+### Fixed
+
+1. Hotfix for 1.139.0 - digital temperature and humidity sensors are supported only on six motor boards with FW >= 5.7.1
+
+
+## 1.139.2 (2021-12-23)(beta), (2022-02-01)(public, yanked on the same  day)
 
 
 ### Fixed
