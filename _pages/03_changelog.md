@@ -18,17 +18,17 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
-## 1.139.2 (2021-12-23)(beta)
+## 1.139.2 (2021-12-23)(beta), (2022-02-01)(public)
 
 
 ### Fixed
 
-1.(C) Hotfix for 1.133.0 - recent wavelengths can not be set
-1.(S) Rewrite 'Move motor sometimes' service
+1. (C) Hotfix for 1.133.0 - recent wavelengths can not be set
+1. (S) Rewrite 'Move motor sometimes' service
 
 ### New
 
-1.(S) Add check whether eth interface exists which could be used to communicate with Eth motor board 
+1. (S) Add check whether eth interface exists which could be used to communicate with Eth motor board 
 
 ## 1.139.0 (2021-12-17)(beta)
 
@@ -39,8 +39,8 @@ permalink: /changelog/
 
 ### Fixed
 
-1.(FO) Eth motor board digital temperature and humidity sensors are ignored on revised 6-motor boards which support them
-1.(C)(FO) If Signal is set with the wavelength that is equal to Idler wavelength, WinTopas4 grays out Signal in  main view
+1. (FO) Eth motor board digital temperature and humidity sensors are ignored on revised 6-motor boards which support them
+1. (C)(FO) If Signal is set with the wavelength that is equal to Idler wavelength, WinTopas4 grays out Signal in  main view
 
 
 
@@ -69,11 +69,11 @@ permalink: /changelog/
 ## 1.134.0 (2021-12-14)(beta)
 
 ### Fixed
-1.(S)(FO) Shutter might be automatically closed at any time if required laser preset is configured due temporary communication problems with laser 
-1.(C) Remove Apple logos
+1. (S)(FO) Shutter might be automatically closed at any time if required laser preset is configured due temporary communication problems with laser 
+1. (C) Remove Apple logos
 
 ### New
-1.(S) Add 'auto' address patching for all systems with known addresses of Eth motor boards - Topas4Server will change device configuration to contain explicit Eth board address
+1. (S) Add 'auto' address patching for all systems with known addresses of Eth motor boards - Topas4Server will change device configuration to contain explicit Eth board address
 
 ### Changed
 1. Beta release channel address changed, \\kleja is no longer used 
@@ -102,7 +102,7 @@ permalink: /changelog/
 
 ### Changed
 1. Prefer explicit addresses for Eth motor boards in device configuration instead of 'auto' 
-1.(C) Tweak forbidden ranges generation for discontinous motor calibration curves
+1. (C) Tweak forbidden ranges generation for discontinous motor calibration curves
 
 ### Fixed
 1. (S) If TCP ports required to expose REST etc services are taken on startup, try alternative ports at +200, +400 etc
@@ -111,62 +111,62 @@ permalink: /changelog/
 
 ### New
 
-1.(C) Add 'Shift Selection' button to motor position in calibration
+1. (C) Add 'Shift Selection' button to motor position in calibration
 
 ## 1.131.0 (2021-10-26)(beta),  (2021-11-05)(public)
 
 ### Fixed
-1.(C) Secondary shutters are displayed incorrectly if they are closed for safety reasons
-1.(C) Warn user if they try to set output for LightComposer device using WinTopas4
-1.(C) Can't upload firmware for Eth motor board via Tools>Manage Eth motor boards if kleja is unreachable
+1. (C) Secondary shutters are displayed incorrectly if they are closed for safety reasons
+1. (C) Warn user if they try to set output for LightComposer device using WinTopas4
+1. (C) Can't upload firmware for Eth motor board via Tools>Manage Eth motor boards if kleja is unreachable
 
 
 ### New
 
-1.(C) Add interlock status to Tools>Manage Eth motor boards
-1.(C) Prevent 'Reset in progress' message from dissapearing for a brief period of time when each motor ends reseting
+1. (C) Add interlock status to Tools>Manage Eth motor boards
+1. (C) Prevent 'Reset in progress' message from dissapearing for a brief period of time when each motor ends reseting
 
 
 
 ## 1.129.0 (2021-10-15)(beta)
 
 ### New
-1.(S) Add software shutter sharing between devices for Twins
+1. (S) Add software shutter sharing between devices for Twins
 
 
 
 ## 1.128.5 (2021-09-15)(beta), (2021-10-07)(public)
 
 ### Changed
-1.(S) Increase max homing duration for PI delay lines to 10 seconds (was 5)
+1. (S) Increase max homing duration for PI delay lines to 10 seconds (was 5)
 
 
 
 ## 1.128.4 (2021-08-31)(beta), (2021-09-13)(public)
 
 ### Fixed
-1.(S) Hotfix for 1.128.2  - do not send 'RESET_TEMP_AND_HUMIDITY' commands to Eth motor boards with 6 motors 
+1. (S) Hotfix for 1.128.2  - do not send 'RESET_TEMP_AND_HUMIDITY' commands to Eth motor boards with 6 motors 
 
 ### New
-1.(S) Track interlock flag events for Eth motor bord with main shutter
+1. (S) Track interlock flag events for Eth motor bord with main shutter
 
 ## 1.128.3 (2021-08-27)(beta)
 
 ### Fixed
-1.(C) Fix false positive 'Simplify' option for motor position curve
+1. (C) Fix false positive 'Simplify' option for motor position curve
 
 
 ### Changed
-1.(C) Change forbidden ranges generation logic for optical curves that contain positions equal to named motor positions
+1. (C) Change forbidden ranges generation logic for optical curves that contain positions equal to named motor positions
 
 
 ## 1.128.2 (2021-08-26)(beta)
 
 ### Changed
 
-1.(C) Add 'Help' button to top bar, it leads to How-Tos videos
-1.(S) Temperature/Humidity sensors connected to Eth motor boards are now reseted on server startup and board debug tool launch
-1.(S) List of devices that are allowed to use 10.1.1.0-2 Eth motor boards shortened
+1. (C) Add 'Help' button to top bar, it leads to How-Tos videos
+1. (S) Temperature/Humidity sensors connected to Eth motor boards are now reseted on server startup and board debug tool launch
+1. (S) List of devices that are allowed to use 10.1.1.0-2 Eth motor boards shortened
 
 
 
@@ -174,89 +174,89 @@ permalink: /changelog/
 
 ### Fixed
 
-1.(C) Fix Cronus-3P demo configuration file is not included
+1. (C) Fix Cronus-3P demo configuration file is not included
 
 ## 1.128.0 (2021-08-23)(beta)
 
 ### Fixed
-1.(S) Fix pump laser preset check for shutter might be ignored
+1. (S) Fix pump laser preset check for shutter might be ignored
 
 ### New
-1.(S) Add 'CloseOnPumpMismatch' option to shutter configuration
+1. (S) Add 'CloseOnPumpMismatch' option to shutter configuration
 
 ## 1.127.0 (2021-08-09)(beta)
 
 ### New
-1.(S) Try to disable 'Idle Power Saving' for Usb<>Eth adapters that are used for communication with Eth motor boards
+1. (S) Try to disable 'Idle Power Saving' for Usb<>Eth adapters that are used for communication with Eth motor boards
 
 ## 1.126.0 (2021-08-09)(beta)
 
 ### Fixed
-1.(S) Tweak temperature and humidity and sensors readout to avoid unstable operation in certain situations
+1. (S) Tweak temperature and humidity and sensors readout to avoid unstable operation in certain situations
 
 ### Changed
 
-1.(S) Block usage of Eth motor boards with addreses 10.1.1.0-2 if device is not whitelisted (Warning since 1.121.0)
+1. (S) Block usage of Eth motor boards with addreses 10.1.1.0-2 if device is not whitelisted (Warning since 1.121.0)
 
 ## 1.125.1 (2021-08-03)(beta)
 
 ### Fixed
-1.(S)(FO) Topas4Server will likely fail to monitor ethernet interface changes
+1. (S)(FO) Topas4Server will likely fail to monitor ethernet interface changes
 
 ## 1.125.0 (2021-08-02)(beta)
 
 ### Fixed
-1.(S)(FO) Topas4Server might not exit if launched multiple times and update is ready
+1. (S)(FO) Topas4Server might not exit if launched multiple times and update is ready
 
 
 ## 1.124.0 (2021-08-02)(beta)
 
 ### Fixed
-1.(S)(FO) Topas4Server enters infinite loop on startup if Eth motor board motor is in 'ThermalShutdown'' state and can't leave 'Busy' state 
+1. (S)(FO) Topas4Server enters infinite loop on startup if Eth motor board motor is in 'ThermalShutdown'' state and can't leave 'Busy' state 
 
 ### New
-1.(C) Add Cronus-3P demo configuration to Tools>Launch New Demo Device menu
+1. (C) Add Cronus-3P demo configuration to Tools>Launch New Demo Device menu
 
 ## 1.122.0 (2021-07-02)(beta),  (2021-07-09)(public)
 ### Fixed
-1.(S)(FO) Eth motor board communication tweaks (UDP ports exhaustion)
+1. (S)(FO) Eth motor board communication tweaks (UDP ports exhaustion)
 ### New
-1.(S) Backup device config zip to cloud
+1. (S) Backup device config zip to cloud
 
 
 
 ## 1.121.0 (2021-07-01)(beta)
 ### Changed
 
-1.(S) Warn user if Eth motor boards with addreses 10.1.1.0-2 are used and device is not whitelisted
+1. (S) Warn user if Eth motor boards with addreses 10.1.1.0-2 are used and device is not whitelisted
 
 
 ## 1.120.1 (2021-06-18)
 ### New
-1.(S) Track installed .Net Framework version
+1. (S) Track installed .Net Framework version
 
 ## 1.120.0 (2021-06-17)(beta)
 
 ### New
-1.(C) Add DFX interaction.  It works the same way as DFG but with IDL instead of SIG.
+1. (C) Add DFX interaction.  It works the same way as DFG but with IDL instead of SIG.
 
 ## 1.119.3 (2021-06-07)(beta), (2021-06-17)(beta)
 
 
 ### Fixed
-1.(S)(FO) Motor reset does not work if zero offset (recalculated to microsteps) is bigger than max position
-1.(C)(FO) Tools>Manage Eth motor boards>Configure and debug does nothing if board name is empty
+1. (S)(FO) Motor reset does not work if zero offset (recalculated to microsteps) is bigger than max position
+1. (C)(FO) Tools>Manage Eth motor boards>Configure and debug does nothing if board name is empty
 
 
 ## 1.119.0 (2021-05-26)(beta)
 
 ### Fixed
-1.(S)(FO) Strange shutter behaviour when connected to Eth motor board and setting wavelength while shutter is open
+1. (S)(FO) Strange shutter behaviour when connected to Eth motor board and setting wavelength while shutter is open
 
 ### New
-1.(C) Tool to setup new Eth motor boards for use with WinTopas4, extended motor boards address space from 256 to about 50k adresses
+1. (C) Tool to setup new Eth motor boards for use with WinTopas4, extended motor boards address space from 256 to about 50k adresses
 1. Implicit Eth motor board naming in Motorjs.json ('auto') 
-1.(S) New firmware for Eth motor board (5.5.0)
+1. (S) New firmware for Eth motor board (5.5.0)
 
 
 
@@ -264,8 +264,8 @@ permalink: /changelog/
 
 ### Fixed
 
-1.(C) Incease IGeneralService client timeout to 10 seconds because save device config as zip file timeouts sometimes (temporary fix)
-1.(S) Update dependencies to solve issues with HtmlAgilityPack mismatch
+1. (C) Incease IGeneralService client timeout to 10 seconds because save device config as zip file timeouts sometimes (temporary fix)
+1. (S) Update dependencies to solve issues with HtmlAgilityPack mismatch
 
 ## 1.118.1 (2021-05-14)(beta)
 
@@ -370,7 +370,7 @@ permalink: /changelog/
 
 ### New
 
-1.(C) User interface for additional shutters 
+1. (C) User interface for additional shutters 
 
 
 ## 1.107.0 (2021-03-17)(beta)
@@ -639,13 +639,13 @@ permalink: /changelog/
 
 ### Changed
 
-1.(C) Enable automatic firmware update for Eth motor boards
+1. (C) Enable automatic firmware update for Eth motor boards
 
 ## 1.81.0 (2020-06-23)(beta)
 
 ### Fixed
 
-1.(C)(FO) Flat grey shutter button
+1. (C)(FO) Flat grey shutter button
 
 ### New
 
@@ -657,7 +657,7 @@ permalink: /changelog/
 
 ### Changed
 
-1.(C) Minor output control UI tweaks
+1. (C) Minor output control UI tweaks
 
 ### New
 1. (S) Add custom motor homing logic: "Skip" 
@@ -667,14 +667,14 @@ permalink: /changelog/
 
 ### Changed
 
-1.(C) Shutter button moved to the left, interaction selection button and interlock indicator to the right, other UI tweaks
+1. (C) Shutter button moved to the left, interaction selection button and interlock indicator to the right, other UI tweaks
 
 
 ## 1.74.0 (2020-04-24)(beta), (2020-05-25)(public)
 
 ### Fixed
 
-1.(S)(FO) Hotfix for 1.73.0, device with Eth motor board might crash on startup
+1. (S)(FO) Hotfix for 1.73.0, device with Eth motor board might crash on startup
 
 
 
@@ -703,7 +703,7 @@ permalink: /changelog/
 
 ### Fixed
 
-1.(C)(FO) 'Change Pump wavelength' tool might not correctly set same input values for range end motor curves points
+1. (C)(FO) 'Change Pump wavelength' tool might not correctly set same input values for range end motor curves points
 
 
 ## 1.70.0 (2020-04-10)(beta)
@@ -775,15 +775,15 @@ permalink: /changelog/
 
 ### Fixed
 
-1.(C) Phrase 'due safety reasons' corrected to 'for safety reasons'
+1. (C) Phrase 'due safety reasons' corrected to 'for safety reasons'
 
 ### New
 
-1.(S) Add motors positions logger (Configuration\Settings\Loggers.json > MotorPositions)
+1. (S) Add motors positions logger (Configuration\Settings\Loggers.json > MotorPositions)
 
 ### Changed
 
-1.(S) 'Configuration\Settings\Logger.json' file no is longer used
+1. (S) 'Configuration\Settings\Logger.json' file no is longer used
 
 
 
@@ -792,8 +792,8 @@ permalink: /changelog/
 
 ### Fixed
 
-1.(C)(FO) 'Connect' button next to serial number is very buggy in case tab is already waiting for connection to another device
-1.(C)(FO) Fix add/remove/reoder motors tool, add motor from .zip crashes WinTopas4 when sending configuration to server or checking sanity
+1. (C)(FO) 'Connect' button next to serial number is very buggy in case tab is already waiting for connection to another device
+1. (C)(FO) Fix add/remove/reoder motors tool, add motor from .zip crashes WinTopas4 when sending configuration to server or checking sanity
 
 
 
@@ -801,7 +801,7 @@ permalink: /changelog/
 
 ### Fixed
 
-1.(S) Fix configuration history difference generation in cases when new file appears
+1. (S) Fix configuration history difference generation in cases when new file appears
 
 
 ## 1.50.0 (2019-10-29) 
@@ -975,21 +975,21 @@ permalink: /changelog/
 
 ### Fixed
 
-1.(C)(FO) Moving motor in one direction by holding down arrow key while calibration curve is visible makes motor jumpy: it skips back every second or so 
+1. (C)(FO) Moving motor in one direction by holding down arrow key while calibration curve is visible makes motor jumpy: it skips back every second or so 
 
 
 ## 1.26.6 (2019-04-11) 
 
 ### Fixed
 
-1.(C)(FO) 'Set offset' button in motor curve calibration window sets offset value to NaN (Not a Number) if the same motor is included in neutral positions
+1. (C)(FO) 'Set offset' button in motor curve calibration window sets offset value to NaN (Not a Number) if the same motor is included in neutral positions
 
 
 ## 1.26.5 (2019-04-10) 
 
 ### Changed
 
-1.(C) Remove 'Send feedback' function
+1. (C) Remove 'Send feedback' function
 
 
 
@@ -997,19 +997,19 @@ permalink: /changelog/
 
 ### Fixed
 
-1.(C)(FN) Separation configuration tables have scrollbars
+1. (C)(FN) Separation configuration tables have scrollbars
 
 
 ### Changed
-1.(C) Change legal company name to Light Conversion, UAB
+1. (C) Change legal company name to Light Conversion, UAB
 
 
 ## 1.26.0 (2019-02-26) (beta)
 
 ### Fixed
 
-1.(S) Harpia motor board motor configuration: add new properties and other changes
-1.(C)(FN) Inform user when he tries to launch device with the same serial number that is already in use on this PC instead of failing later on 
+1. (S) Harpia motor board motor configuration: add new properties and other changes
+1. (C)(FN) Inform user when he tries to launch device with the same serial number that is already in use on this PC instead of failing later on 
 
 ### Changed
 
