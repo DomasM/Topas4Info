@@ -18,8 +18,14 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.140.0 (2022-02-08)(beta)
 
-## 1.139.4 (2022-01-02)(beta)
+### Changed
+
+1. (C) Forbidden ranges are generated from all optical configurations, not just the one currently active
+1. (S) If power leaves stabilization range while power locking motor is returned to the recent best position
+
+## 1.139.4 (2022-02-02)(beta)
 
 ### Fixed
 
