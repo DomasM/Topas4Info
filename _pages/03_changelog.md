@@ -18,6 +18,17 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.140.1 (2022-02-11)(beta)
+
+
+### Changed
+
+1. (C) Forbidden ranges are generated from all separation configurations, not just the one currently active
+
+### Fixed
+
+1. (C)(FO) Default positions are ignored for currently inactive optical configurations while generating forbidden ranges
+
 ## 1.140.0 (2022-02-08)(beta)
 
 ### Changed
