@@ -18,6 +18,23 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.141.0 (2022-03-09)(beta)
+
+
+### Changed
+
+1. Smooting of measured value for power meter is in power meter configuration instead of power feedback configuration
+
+### Fixed
+
+1.(C)(FO) 'Current as reference' power meter function does not work correctly if pulse picker != 1
+
+### New
+
+1.(C) Add single parameter power meter smoothing and preview chart 
+
+
+
 ## 1.140.1 (2022-02-11)(beta),(2022-02-24)(public)
 
 
