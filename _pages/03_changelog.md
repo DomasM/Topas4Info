@@ -18,6 +18,27 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.143.0 (2022-04-13)(beta)
+
+
+### Fixed
+
+1.(S)(FN) Hotfix for 1.142.0 - motor returns to previous position after homing
+
+1.(S)(FO) Motor with backlash compensation enabled can get stuck in moving state without any actual movement till next movement/stop command
+
+
+## 1.142.0 (2022-04-11)(beta)
+
+
+### Fixed
+
+1.(S)(FO) Topas4Server might be unable to start if last known motor position is greater than maximal motor position with current configuration
+
+### Changed
+
+1.(S)(FN) After motor homing, motor inadvertely moves to position = 1 step
+
 ## 1.141.0 (2022-03-09)(beta)
 
 
