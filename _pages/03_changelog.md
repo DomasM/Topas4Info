@@ -18,6 +18,14 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.144.0 (2022-04-21)(beta)
+
+
+### New
+
+1. Add parametric motor curves to interactions
+
+
 ## 1.143.0 (2022-04-13)(beta)
 
 
