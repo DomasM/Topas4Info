@@ -18,11 +18,11 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
-## 1.146.2 (2022-05-10)(beta)
+## 1.147.2 (2022-05-10)(beta)
 
 ### Fixed
 
-1. (FN) Fixed incorrect behaviour after last patch.
+1. (S)(FN) Fixed incorrect left/right switch behaviour after the last patch.
 
 ## 1.145.0 (2022-05-09)(beta)
 
