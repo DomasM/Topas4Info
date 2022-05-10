@@ -18,13 +18,19 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.146.2 (2022-05-10)(beta)
+
+### Fixed
+
+1. (FN) Fixed incorrect behaviour after last patch.
+
 ## 1.145.0 (2022-05-09)(beta)
 
 ### Fixed
 
 1.(S)(FO) 'Swap switches' flag does not work as expected if 'Reverse direction' is enabled in Eth motor board motor configuration
-1.(C)(FO) Restart/new tab is required for WinTopas4 after adding first power meter to config and restarting Topas4Server
-1.(C)(FO) When motor hits right switch while moving in positive direction, full stoping procedure is not initiated (motor would start to move again if switch is depressed)
+2.(C)(FO) Restart/new tab is required for WinTopas4 after adding first power meter to config and restarting Topas4Server
+3.(C)(FO) When motor hits right switch while moving in positive direction, full stoping procedure is not initiated (motor would start to move again if switch is depressed)
 
 
 ## 1.144.0 (2022-04-21)(beta)
