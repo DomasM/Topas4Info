@@ -18,6 +18,30 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+
+## 1.147.4 (2022-08-04) (beta)
+### Fixed
+1. Slipstick piezo position bug.
+
+
+## 1.147.3 (2022-08-04) (beta)
+
+### New
+1. Added Date and time information to topas4 logs.
+2. Added support for 2 Piezo boards.
+3. PowerMeter logging can also be configured in loggers.json file.
+4. Eth Board debug window can list attached CAN boards (quadrants and Piezo).
+5. Piezo boards with firmware version 1.18.0 have voltage ramping function enabled by default. This can be set with accelleration parameter.
+6. Power meters have units label.
+
+### Fixed
+1. Piezos losing initial positions after power failure.
+2. Analog input #7 not being read correctly.
+3. 2nd ambient sensor not being logged.
+
+### Changed
+1. Single motor view is not being shown anymore.
+
 ## 1.147.2 (2022-05-10)(beta)
 
 ### Fixed
