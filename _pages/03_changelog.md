@@ -18,7 +18,7 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
-## 1.147.6 (2022-09-06) (beta)
+## 1.147.6 (2022-11-09)
 ### Changed
 1. (S) Increased timeout for laser "disconnected" status to trigger shutter interlock.
 
