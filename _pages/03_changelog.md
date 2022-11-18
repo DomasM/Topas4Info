@@ -18,6 +18,21 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.148.1 (2022-11-18) (beta)
+### Changed
+1.  (C) Removed Accent colors for individual devices and global application theme
+2. (C) Smooth wavelength scanner and Step wavelengh scanners are no longer accessible for regular users.
+
+### Fixed
+1. (S) Carbide laser presets should now respond correctly to both User App and Laser Service app preset changes
+2. (C) Powermeter view in WinTopas4 should update better. 
+3. (S) Adding new Piezo motor will by default set acceleration to 100. This parameter limits voltage change per seconds for piezo motors. (100 corresponds to 100V/s.
+
+### New
+1. (C)(S) Shutter open hours are being calculated and stored in the local server configuration. Open hours counter updates on shutter state change or interaction change. 
+2. (C)(S) Individual motors can be set to initiate homing procedure during Topas4 server startup. 
+
+
 ## 1.147.6 (2022-11-09)
 ### Changed
 1. (S) Increased timeout for laser "disconnected" status to trigger shutter interlock.
