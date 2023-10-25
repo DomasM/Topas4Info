@@ -18,7 +18,15 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
-## 1.148.1 (2022-11-18) (beta)
+## 1.148.4 (2022-12-12) beta
+### Fixed
+1. (C)(S) Named position filter is now being saved when closing / opening WinTopas4.
+2. (C)(S) Total shutter open hours calculator is now calculating "NoN" interaction too.
+
+### New
+1. (C) Ability to link additional shutters with the main shutter. Main shutter will control linked shutters.
+
+## 1.148.1 (2022-11-18) 
 ### Changed
 1.  (C) Removed Accent colors for individual devices and global application theme
 2. (C) Smooth wavelength scanner and Step wavelengh scanners are no longer accessible for regular users.
