@@ -18,7 +18,7 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
-## 1.148.4 (2022-12-12) beta
+## 1.148.4 (2022-12-12)
 ### Fixed
 1. (C)(S) Named position filter is now being saved when closing / opening WinTopas4.
 2. (C)(S) Total shutter open hours calculator is now calculating "NoN" interaction too.
