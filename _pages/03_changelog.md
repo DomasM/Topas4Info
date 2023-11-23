@@ -18,6 +18,34 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.148.20 (2023-11-23) (Beta)
+### Changed
+1. (C) GUI improvements: Main / Calibration / Motors tabs are now vertical and with icons. Settings button was moved to a separate tab.
+2. (C) Lots of style changes (icons, fonts, buttons etc) due to the updated GUI library.
+3. (S) Remake of the logging. Logging is now done to C:/Users/Public/Light Conversion/Topas4/Server-Name. Only Information/Warning/Errors level logs are visible to the user in Topas4 server application. 
+Detailed logs are available in the file.
+4. (C) ConfigurationEditor is moved to Settings tab.
+5. (C) Shutters are now closing when motor is approaching a forbidden position. Instead of when motor is already in the forbidden position.
+6. (C) Laser preset / connection interlock closes shutters and does not open them when the condition is removed.
+
+
+### New 
+1. (S) Option to enable / disable automatic laser startup on optical configuration change.
+2. (C) Option to cancel wavelength setting.
+3. (C) Option to drag lock X/Y on interaction view.
+4. (C) Option to change Input/Output relationships when correcting wavelengths.
+5. (C) (S) Maximum value for ambient sensors. Option to trigger shutter interlock.
+	
+### Fixed
+1. (C) Crashes when Topas4 server does not contain Topas4.exe file
+2. (C)(S) Forbidden ranges failure when NaN ranges are generated. 
+3. (C) Configuration editor is now able to edit Shutters.
+4. (C) Laser preset protection not working when preset is changed through LSA.
+5. (C) Limit max accelleration setting for Eth motor boards to 59590.
+
+
+
+
 ## 1.148.4 (2022-12-12)
 ### Fixed
 1. (C)(S) Named position filter is now being saved when closing / opening WinTopas4.
