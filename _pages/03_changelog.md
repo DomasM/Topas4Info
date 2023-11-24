@@ -18,6 +18,10 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+## 1.148.21 (2023-11-24) (Beta)
+### Fixed
+1. (S) Motor reporting crossing forbidden ranges incorrectly.
+
 ## 1.148.20 (2023-11-23) (Beta)
 ### Changed
 1. (C) GUI improvements: Main / Calibration / Motors tabs are now vertical and with icons. Settings button was moved to a separate tab.
