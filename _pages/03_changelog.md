@@ -18,7 +18,7 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
-## 1.148.22 (2023-12-05) (Beta)
+## 1.148.25 (2023-12-05) (Beta)
 ### Fixed
 1. (C) Topas4 servers not being launched on WinTopas4 startup.
 
