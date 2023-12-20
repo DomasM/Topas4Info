@@ -18,6 +18,16 @@ permalink: /changelog/
 * (PA)-Public API: applies to public API
 * beta : auto-updates active only for PCs in Light Conversion local area network
 
+
+## 1.148.28 (2023-12-20) (Beta)
+### Fixed
+1. (C) Returned "Ignore Separation Control" option to advanced access level.
+2. (S) Fixed endless loop in case the server is unable to get permissions.
+3. (C) Power meter view visibility improvements.
+
+### Changed
+2. (S) Bundled Netsh rules to a single command. 
+
 ## 1.148.25 (2023-12-05) (Beta)
 ### Fixed
 1. (C) Topas4 servers not being launched on WinTopas4 startup.
