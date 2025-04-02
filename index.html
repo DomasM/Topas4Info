@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <script>
+      const base = "https://lightconupdater.blob.core.windows.net/documentation/WinTopas4";
+
+      // Remove /Topas4Info prefix
+      let path = window.location.pathname.replace(/^\/Topas4Info/, '');
+
+      // Default to /index.html if root
+      if (path === '' || path === '/') {
+        path = '/index.html';
+      } else if (!path.endsWith('/') && !path.includes('.')) {
+        // If path doesn't end with slash and has no file extension → assume it's an .html file
+        path += '.html';
+      }
+
+      const target = base + path;
+      window.location.replace(target);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to new documentation location...</p>
+    <p>If you're not redirected, <a id="link" href="#">click here</a>.</p>
+    <script>
+      document.getElementById('link').href = target;
+    </script>
+  </body>
+</html>
