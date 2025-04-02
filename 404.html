@@ -13,19 +13,35 @@
       if (path === '' || path === '/') {
         path = '/index.html';
       } else if (!path.endsWith('/') && !path.includes('.')) {
-        // If path doesn't end with slash and has no file extension → assume it's an .html file
+        // If no extension, assume it's an HTML file
         path += '.html';
       }
 
-      const target = base + path;
-      window.location.replace(target);
+      const targetUrl = base + path;
+
+      // Check if blob exists
+      fetch(targetUrl, { method: 'HEAD' })
+        .then(response => {
+          if (response.ok) {
+            // Blob exists — redirect there
+            window.location.replace(targetUrl);
+          } else {
+            // Not found — redirect to index.html
+            window.location.replace(base + '/index.html');
+          }
+        })
+        .catch(err => {
+          // On error (e.g., CORS block), fallback to index.html
+          window.location.replace(base + '/index.html');
+        });
     </script>
   </head>
   <body>
     <p>Redirecting to new documentation location...</p>
     <p>If you're not redirected, <a id="link" href="#">click here</a>.</p>
     <script>
-      document.getElementById('link').href = target;
+      // Update fallback link immediately
+      document.getElementById('link').href = base + '/index.html';
     </script>
   </body>
 </html>
